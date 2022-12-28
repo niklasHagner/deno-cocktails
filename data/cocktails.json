@@ -31,7 +31,7 @@
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
     "imgUrl" : "https://media.topshelfspirits.se/Old-Fashioned-Historia-Nu-och-da.jpg",
-    "description": "Shorthand for an “old-fashioned style whiskey cocktail”. In the 1800s a “cocktail” meant any combination of spirit, sweetener, and bitters (think old-timey patent medicines), and what we now call an Old Fashioned is simply a modern recreation of the original cocktail with modern ingredients.",
+    "description": "In the 1800s a “cocktail” meant any combination of spirit, sweetener, and bitters.",
     "ingredients": [
       {
         "unit": "cl",
@@ -40,13 +40,13 @@
         "label": "Bourbon or rye whiskey"
       },
       {
-        "special": "2 dashes Angostura Bitters"
+        "ingredient": "Angostura Bitters", "amount": 2, "unit": "dashes"
       },
       {
-        "special": "1 sugar cube"
+        "ingredient": "Sugar cube", "amount": 1, "unit": ""
       },
       {
-        "special": "Few dashes plain water"
+        "ingredient": "Plain water", "amount": 3, "unit": "dashes"
       }
     ],
     "garnish": "Cocktail cherries (or in a pinch - maybe an orange slice)",
@@ -270,13 +270,13 @@
         "ingredient": "Lime juice"
       },
       {
-        "special": "6 Mint sprigs"
+        "ingredient": "Mint sprigs", "amount": 6, "unit": ""
       },
       {
-        "special": "2 teaspoons white sugar"
+        "ingredient": "White sugar", "amount": 2, "unit": "teaspoons"
       },
       {
-        "special": "Soda water"
+        "ingredient": "Soda water", "amount": 1, "unit": "fill"
       }
     ],
     "garnish": "Mint leaves and lemon slice",
@@ -299,7 +299,7 @@
         "ingredient": "Ginger Ale"
       },
       {
-        "special": "Dash of Angostura bitters (optional)"
+        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes", "optional":true
       }
     ],
     "garnish": "Lemon twist",
@@ -344,7 +344,7 @@
         "label": "Sugar syrup"
       },
       {
-        "special": "3 to 4 dashes Angostura bitters"
+        "ingredient": "Angostura Bitters", "amount": 3, "unit": "dashes"
       }
     ],
     "garnish": "Pineapple slice and a cherry",
@@ -398,7 +398,7 @@
         "label": "Sugar syrup"
       },
       {
-        "special": "1 raw egg white (small egg)"
+        "ingredient": "Egg white", "amount": 1, "unit": ""
       }
     ],
     "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top."
@@ -426,7 +426,7 @@
         "ingredient": "Lemon juice"
       },
       {
-        "special": "Few drops of Egg White"
+        "ingredient": "Egg white", "amount": 3, "unit": "drops"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into cocktail glass."
@@ -511,7 +511,7 @@
         "label": "Red vermouth"
       },
       {
-        "special": "1 dash Angostura Bitters"
+        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes"
       }
     ],
     "garnish": "Cherry",
@@ -589,7 +589,10 @@
         "label": "Kahlúa"
       },
       {
-        "special": "Sugar syrup (according to individual preference of sweetness)"
+        "unit": "optional amount",
+        "amount": 1,
+        "ingredient": "Syrup",
+        "label": "Sugar syrup"
       },
       {
         "special": "1 short strong Espresso"
@@ -639,7 +642,10 @@
         "ingredient": "Lemon juice"
       },
       {
-        "special": "2 dashes Sugar syrup"
+        "unit": "dashes",
+        "amount": 2,
+        "ingredient": "Syrup",
+        "label": "Sugar syrup"
       },
       {
         "unit": "cl",
@@ -902,7 +908,7 @@
         "ingredient": "Aperol"
       },
       {
-        "special": "Splash of Soda water"
+        "ingredient": "Soda water", "amount": 1, "unit": "splash"
       }
     ],
     "garnish": "Half an orange slice",
@@ -1224,7 +1230,7 @@
         "ingredient": "Absinthe"
       },
       {
-        "special": "1 sugar cube"
+        "ingredient": "Sugar cube", "amount": 1, "unit": ""
       },
       {
         "special": "2 dashes Peychaud’s bitters"
@@ -1300,7 +1306,7 @@
         "label": "Grenadine"
       },
       {
-        "special": "1 dash Angostura bitters"
+        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes"
       }
     ],
     "garnish": "Pineapple slice and a cherry",
@@ -1508,10 +1514,10 @@
         "ingredient": "Cognac"
       },
       {
-        "special": "2 dashes Angostura Bitters"
+        "ingredient": "Angostura Bitters", "amount": 2, "unit": "dashes"
       },
       {
-        "special": "1 sugar cube"
+        "ingredient": "Sugar cube", "amount": 1, "unit": ""
       }
     ],
     "garnish": "Orange slice and a cherry",
@@ -1627,7 +1633,7 @@
         "ingredient": "Cream"
       },
       {
-        "special": "1 Egg white"
+        "ingredient": "Egg white", "amount": 1, "unit": ""
       },
       {
         "special": "3 dashes Orange flower water"
@@ -1636,7 +1642,7 @@
         "special": "2 drops Vanilla extract"
       },
       {
-        "special": "Soda water"
+        "ingredient": "Soda water", "amount": 1, "unit": "fill"
       }
     ],
     "preparation": "Pour all ingredients (except soda) in a mixing glass, dry shake (no ice) for two minutes, add ice and hard shake for another minute. Strain into a highball glass without ice, top with soda."
@@ -1947,7 +1953,10 @@
         "label": "Dry vermouth"
       },
       {
-        "special": "3 dashes Strawberry syrup"
+        "unit": "dashes",
+        "amount": 3,
+        "ingredient": "Strawberry Syrup",
+        "label": "Sugar syrup"
       }
     ],
     "preparation": "Stir all ingredients with ice and strain into a cocktail glass."
