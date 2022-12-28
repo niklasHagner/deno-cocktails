@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Paprika&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: sans-serif;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+h1,h2 {
+  font-family: 'Carter one', cursive;
+  font-weight: 400;
+}
 
 .grid {
   display: grid;
@@ -52,9 +64,6 @@
   margin: 0px;
   border-radius: 0px;
   padding: 0px;
-  cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
   appearance: none;
   text-decoration: none;
   color: inherit;
@@ -70,12 +79,12 @@
 
 .mui-card h2 {
   margin: 0;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.334;
   letter-spacing: 0em;
   margin-bottom: 0.35em;
+  font-family: 'Paprika', cursive;
 }
 
 .mui-card__desc {

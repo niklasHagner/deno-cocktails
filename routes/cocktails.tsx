@@ -2,26 +2,11 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { Button } from "../components/Button.tsx";
 import IngredientFilterButton from "../islands/IngredientFilterButton.tsx";
+import { CocktailCard, Cocktail, Ingredient } from "../components/CocktailCard.tsx";
 
-interface CocktailCollection {
+interface GodModel {
   cocktails: Array<Cocktail>;
-}
-
-interface Cocktail {
-  name: string;
-  glass: string;
-  category: string;
-  ingredients: Array<Ingredient>;
-  granish: string;
-  preparation: string;
-  imgUrl: string;
-}
-
-interface Ingredient {
-  unit: string;
-  amount: number;
-  ingredient: string;
-  special: string;
+  ingredientNames: Array<string>;
 }
 
 export const handler: Handlers<Cocktail | null> = {
@@ -39,7 +24,7 @@ export const handler: Handlers<Cocktail | null> = {
   },
 };
 
-export default function Page({ data }: PageProps<CocktailCollection | null>) {
+export default function Page({ data }: PageProps<GodModel | null>) {
   if (!data) {
     return <h1>Cocktails not found</h1>;
   }
@@ -47,7 +32,7 @@ export default function Page({ data }: PageProps<CocktailCollection | null>) {
   return (
     <>
       <Head>
-        <title>Cocktailsss</title>
+        <title>Cocktails</title>
         <link rel="stylesheet" href="/main.css" />
         <meta name="description" content="Drink recipes" />
       </Head>
@@ -55,9 +40,6 @@ export default function Page({ data }: PageProps<CocktailCollection | null>) {
         <h1>{data.ingredientNames.length} ingredients</h1>
         <section class="ingredients">
           {data.ingredientNames.map((ingredientName: any): Element => (
-            // <button>
-            //   {ingredientName && <span>{ingredientName}</span> }
-            // </button>
             <IngredientFilterButton name={ingredientName} checked={false} />
           ))}
         </section>
@@ -65,47 +47,7 @@ export default function Page({ data }: PageProps<CocktailCollection | null>) {
         <h1>{data.cocktails.length} cocktails</h1>
         <section class="grid">
           {data.cocktails.map((cocktail) => (
-            <article class="mui-card">
-              <button class="mui-button" type="button">
-                {cocktail.imgUrl && (
-                  <img src={cocktail.imgUrl} alt="" height="140" />
-                )}
-                <div class="mui-card__text-wrap">
-                  <h2>{cocktail.name}</h2>
-                  <div class="mui-card__desc">
-                    <ul>
-                      {cocktail.ingredients.map((ingredient) => (
-                        <li class="ingredient">
-                          {ingredient.amount} {ingredient.unit}{" "}
-                          {ingredient.ingredient}
-                          {ingredient.special && ingredient.special}
-                        </li>
-                      ))}
-                    </ul>
-                    <p class="glass">
-                      <span class="label">Glass:</span> {cocktail.glass}
-                    </p>
-                    {cocktail.description && (
-                      <p>
-                        <span class="label">Description:</span>{" "}
-                        {cocktail.description}
-                      </p>
-                    )}
-                    {cocktail.garnish && (
-                      <p>
-                        <span class="label">Garnish:</span> {cocktail.garnish}
-                      </p>
-                    )}
-                    <p>{cocktail.preparation}</p>
-                  </div>
-                </div>
-              </button>
-              <div class="mui-card__buttons">
-                <button type="button">
-                  <span class="button__touchripple"></span>
-                </button>
-              </div>
-            </article>
+            <CocktailCard cocktail={cocktail} />
           ))}
         </section>
       </main>
