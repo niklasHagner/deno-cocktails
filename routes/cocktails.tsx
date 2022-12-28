@@ -1,6 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { Button } from "../components/Button.tsx";
+import IngredientFilterButton from "../islands/IngredientFilterButton.tsx";
 
 interface CocktailCollection {
   cocktails: Array<Cocktail>;
@@ -27,13 +28,12 @@ export const handler: Handlers<Cocktail | null> = {
   async GET(_, ctx) {
     const cocktailsJsonFile = await Deno.readTextFile("data/cocktails.json");
     const cocktails = await JSON.parse(cocktailsJsonFile);
-    const allIngredients = cocktails.map((cocktail) => cocktail.ingredients).flat();
-    const allIngredientNames = allIngredients.filter(ing => ing.ingredient && !ing.special).map(ing => ing.ingredient).filter(n => n?.length > 0);
-    console.log(allIngredientNames);
+    const allIngredients = cocktails.map((cocktail) => cocktail.ingredients)
+      .flat();
+    const allIngredientNames = allIngredients.filter((ing) =>
+      ing.ingredient && !ing.special
+    ).map((ing) => ing.ingredient).filter((n) => n?.length > 0);
     const ingredientNames = [...new Set(allIngredientNames)];
-    console.log("----UNIQUE----");
-    console.log(ingredientNames);
-
     const viewData = { cocktails, ingredientNames };
     return ctx.render(viewData);
   },
@@ -52,16 +52,18 @@ export default function Page({ data }: PageProps<CocktailCollection | null>) {
         <meta name="description" content="Drink recipes" />
       </Head>
       <main>
+        <h1>{data.ingredientNames.length} ingredients</h1>
         <section class="ingredients">
           {data.ingredientNames.map((ingredientName: any): Element => (
-            <button>
-              {ingredientName && <span>{ingredientName}</span> }
-            </button>
+            // <button>
+            //   {ingredientName && <span>{ingredientName}</span> }
+            // </button>
+            <IngredientFilterButton name={ingredientName} checked={false} />
           ))}
         </section>
 
+        <h1>{data.cocktails.length} cocktails</h1>
         <section class="grid">
-          {/* display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; */}
           {data.cocktails.map((cocktail) => (
             <article class="mui-card">
               <button class="mui-button" type="button">
