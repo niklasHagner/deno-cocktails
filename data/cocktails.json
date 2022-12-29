@@ -9,17 +9,17 @@
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Campari"
+        "name": "Campari"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Sweet red vermouth"
       }
     ],
@@ -27,30 +27,114 @@
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently."
   },
   {
-    "name": "Old Fashioned",
-    "glass": "old-fashioned",
-    "category": "Before Dinner Cocktail",
-    "imgUrl" : "https://media.topshelfspirits.se/Old-Fashioned-Historia-Nu-och-da.jpg",
-    "description": "In the 1800s a “cocktail” meant any combination of spirit, sweetener, and bitters.",
+    "name": "Gin Fizz",
+    "glass": "highball",
+    "category": "Longdrink",
+    "imgUrl": "https://www.winemag.com/wp-content/uploads/2018/08/GinFizz-CocktailBeers__Meg-Baggott_Styling_Dylan_Garret.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Whiskey",
-        "label": "Bourbon or rye whiskey"
+        "name": "Gin"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 2, "unit": "dashes"
+        "unit": "cl",
+        "amount": 3,
+        "name": "Lemon juice"
       },
       {
-        "ingredient": "Sugar cube", "amount": 1, "unit": ""
+        "unit": "cl",
+        "amount": 1,
+        "name": "Syrup",
+        "label": "Sugar syrup"
       },
       {
-        "ingredient": "Plain water", "amount": 3, "unit": "dashes"
+        "unit": "cl",
+        "amount": 8,
+        "name": "Soda water"
       }
     ],
-    "garnish": "Cocktail cherries (or in a pinch - maybe an orange slice)",
-    "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky."
+    "garnish": "Lemon slice",
+    "preparation": "Shake all ingredients with ice cubes, except soda water. Pour into tumbler. Top with soda water."
+  },
+  {
+    "name": "Dark 'n' Stormy",
+    "glass": "highball",
+    "category": "Longdrink",
+    "imgUrl":"https://food-images.files.bbci.co.uk/food/recipes/dark_and_stormy_92822_16x9.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Dark rum"
+      },
+      {
+        "unit": "cl",
+        "amount": 10,
+        "name": "Ginger beer"
+      }
+    ],
+    "garnish": "Lime wedge",
+    "preparation": "Build into highball glass filled with ice. Add rum first and top it with ginger beer."
+  },
+  {
+    "name": "Between the Sheets",
+    "glass": "martini",
+    "category": "All Day Cocktail",
+    "imgUrl":"https://www.mamalovesadrink.com/wp-content/uploads/2020/06/Mama-Loves-A-Drink-Wide-150-735x490.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "White rum"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Cognac"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Triple Sec"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Lemon juice"
+      }
+    ],
+    "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
+  },
+  {
+    "name": "French 75",
+    "glass": "champagne-tulip",
+    "category": "Sparkling Cocktail",
+    "imgUrl": "https://assets.epicurious.com/photos/6123d145663e652dbef9886e/2:3/w_2940,h_4410,c_limit/French75_RECIPE_082021_20487.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Gin"
+      },
+      {
+        "unit": "cl",
+        "amount": 1.5,
+        "name": "Lemon juice"
+      },
+      {
+        "unit": "dashes",
+        "amount": 2,
+        "name": "Syrup",
+        "label": "Sugar syrup"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Champagne"
+      }
+    ],
+    "preparation": "Shake with ice cubes, except for champagne. Strain into a champagne flute. Top up with champagne. Stir gently."
   },
   {
     "name": "Derby",
@@ -61,7 +145,7 @@
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "special": "2 drops Peach Bitters"
@@ -82,17 +166,17 @@
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into cocktail glass."
@@ -107,17 +191,17 @@
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 0.75,
-        "ingredient": "Lillet Blonde"
+        "name": "Lillet Blonde"
       }
     ],
     "garnish": "Lemon twist",
@@ -127,28 +211,54 @@
     "name": "Bacardi",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
-    "imgUrl": "https://www.liquor.com/thmb/1XH1KJtT53Fyulk5tticI9r92sc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__11__14145228__bacardi-cocktail-720x720-recipe-77d6a74767654d449b9d6fecc00f39f0.jpg",
+    "imgUrl": "https://noseychef.com/wp-content/uploads/2018/10/IMG_4084123.jpg",
     "description": "Delicious and heavy. Best with a small snack or a starter.",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "White rum",
+        "name": "White rum",
         "label": "Bacardi White Rum"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Grenadine"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
+  },
+  {
+    "name": "Old Fashioned",
+    "glass": "old-fashioned",
+    "category": "Before Dinner Cocktail",
+    "imgUrl" : "https://media.topshelfspirits.se/Old-Fashioned-Historia-Nu-och-da.jpg",
+    "description": "In the 1800s a “cocktail” meant any combination of spirit, sweetener, and bitters.",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4.5,
+        "name": "Whiskey",
+        "label": "Bourbon or rye whiskey"
+      },
+      {
+        "name": "Angostura Bitters", "amount": 2, "unit": "dashes"
+      },
+      {
+        "name": "Sugar cube", "amount": 1, "unit": ""
+      },
+      {
+        "name": "Plain water", "amount": 3, "unit": "dashes"
+      }
+    ],
+    "garnish": "Cocktail cherries (or in a pinch - maybe an orange slice)",
+    "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky."
   },
   {
     "name": "Tuxedo",
@@ -159,13 +269,13 @@
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Gin",
+        "name": "Gin",
         "label": "Old Tom Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Dry vermouth"
       },
       {
@@ -185,22 +295,22 @@
     "name": "Daiquiri",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
-    "imgUrl":"https://www.liquor.com/thmb/ZqSIy7R53MSg71PY1y9X-vZtHXE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__04__23143458__daiquiri-720x720-recipe-09f1d5665a794eddbbfb997876736136.jpg",
+    "imgUrl":"https://www.2foodtrippers.com/wp-content/uploads/2020/06/Bacardi-Daiquiri-on-Ledge.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Simple syrup"
       }
     ],
@@ -215,13 +325,13 @@
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Scotch whisky"
       },
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Drambuie"
+        "name": "Drambuie"
       }
     ],
     "garnish": "Lemon twist",
@@ -231,22 +341,23 @@
     "name": "Whiskey Sour",
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
+    "imgUrl": "https://www.ballantines.com/wp-content/uploads/2020/09/ballantines-finest-whisky-sour-drink.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Bourbon whiskey"
       },
       {
         "unit": "cl",
         "amount": 3.0,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       }
     ],
@@ -257,26 +368,27 @@
     "name": "Mojito",
     "glass": "collins",
     "category": "Longdrink",
+    "imgUrl":"https://thebigmansworld.com/wp-content/uploads/2021/06/keto-mojito4.jpeg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "White rum",
+        "name": "White rum",
         "label": "White Cuban Rum"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
-        "ingredient": "Mint sprigs", "amount": 6, "unit": ""
+        "name": "Mint sprigs", "amount": 6, "unit": ""
       },
       {
-        "ingredient": "White sugar", "amount": 2, "unit": "teaspoons"
+        "name": "White sugar", "amount": 2, "unit": "teaspoons"
       },
       {
-        "ingredient": "Soda water", "amount": 1, "unit": "fill"
+        "name": "Soda water", "amount": 1, "unit": "fill"
       }
     ],
     "garnish": "Mint leaves and lemon slice",
@@ -291,15 +403,15 @@
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 12,
-        "ingredient": "Ginger Ale"
+        "name": "Ginger Ale"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes", "optional":true
+        "name": "Angostura Bitters", "amount": 1, "unit": "dashes", "optional":true
       }
     ],
     "garnish": "Lemon twist",
@@ -314,37 +426,37 @@
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Dark rum"
+        "name": "Dark rum"
       },
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       },
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Grenadine"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 3, "unit": "dashes"
+        "name": "Angostura Bitters", "amount": 3, "unit": "dashes"
       }
     ],
     "garnish": "Pineapple slice and a cherry",
@@ -359,17 +471,17 @@
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 12,
-        "ingredient": "Cranberry juice"
+        "name": "Cranberry juice"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Grapefruit juice"
+        "name": "Grapefruit juice"
       }
     ],
     "garnish": "Lime wedge",
@@ -384,21 +496,21 @@
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Pisco"
+        "name": "Pisco"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
-        "ingredient": "Egg white", "amount": 1, "unit": ""
+        "name": "Egg white", "amount": 1, "unit": ""
       }
     ],
     "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top."
@@ -408,25 +520,26 @@
     "name": "Clover Club",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl": "https://nerdswithknives.com/wp-content/uploads/2021/02/img_0100.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Raspberry syrup"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
-        "ingredient": "Egg white", "amount": 3, "unit": "drops"
+        "name": "Egg white", "amount": 3, "unit": "drops"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into cocktail glass."
@@ -435,16 +548,17 @@
     "name": "Mimosa",
     "glass": "champagne-flute",
     "category": "Sparkling Cocktail",
+    "imgUrl": "https://www.thespruceeats.com/thmb/onvzuedKOJiCIvPpPf8qmmKIzOc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bucks-fizz-cocktail-recipe-759611-hero-01-caa35ef806974bc298284fdbd306825b.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 7.5,
-        "ingredient": "Champagne"
+        "name": "Champagne"
       },
       {
         "unit": "cl",
         "amount": 7.5,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       }
     ],
     "garnish": "Optional orange twist",
@@ -454,16 +568,17 @@
     "name": "Screwdriver",
     "glass": "highball",
     "category": "All Day Cocktail",
+    "imgUrl": "https://winedharma.com/wine-dharma/uploads/2020/10/Screwdriver-cocktail-recipe-vodka-orange-drink-recipe-best-vodka-drinks.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 10,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       }
     ],
     "garnish": "Orange slice",
@@ -473,21 +588,22 @@
     "name": "Cuba Libre",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl": "https://noseychef.com/wp-content/uploads/2018/07/IMG_3791.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 12,
-        "ingredient": "Cola"
+        "name": "Cola"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "garnish": "Lime wedge",
@@ -497,21 +613,22 @@
     "name": "Manhattan",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
+    "imgUrl": "https://www.liquor.com/thmb/yX9D5V4tMHuWfljSgMD08mE6S64=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/perfect-manhattan-720x720-primary-55adc2b130da4f69b4ff037eaa572580.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Rye whiskey"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Red vermouth"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes"
+        "name": "Angostura Bitters", "amount": 1, "unit": "dashes"
       }
     ],
     "garnish": "Cherry",
@@ -521,55 +638,25 @@
     "name": "Porto Flip",
     "glass": "martini",
     "category": "After Dinner Cocktail",
+    "imgUrl": "https://drinkch.rokka.io/new-composition-600/f2384c.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Red Port"
+        "name": "Red Port"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Egg yolk"
+        "name": "Egg yolk"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into cocktail glass. Sprinkle with fresh ground nutmeg."
-  },
-  {
-    "name": "Gin Fizz",
-    "glass": "highball",
-    "category": "Longdrink",
-    "imgUrl": "https://www.winemag.com/wp-content/uploads/2018/08/GinFizz-CocktailBeers__Meg-Baggott_Styling_Dylan_Garret.jpg",
-    "ingredients": [
-      {
-        "unit": "cl",
-        "amount": 4.5,
-        "ingredient": "Gin"
-      },
-      {
-        "unit": "cl",
-        "amount": 3,
-        "ingredient": "Lemon juice"
-      },
-      {
-        "unit": "cl",
-        "amount": 1,
-        "ingredient": "Syrup",
-        "label": "Sugar syrup"
-      },
-      {
-        "unit": "cl",
-        "amount": 8,
-        "ingredient": "Soda water"
-      }
-    ],
-    "garnish": "Lemon slice",
-    "preparation": "Shake all ingredients with ice cubes, except soda water. Pour into tumbler. Top with soda water."
   },
   {
     "name": "Espresso Martini",
@@ -580,18 +667,18 @@
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Coffee liqueur",
+        "name": "Coffee liqueur",
         "label": "Kahlúa"
       },
       {
         "unit": "optional amount",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
@@ -609,51 +696,21 @@
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Tequila"
+        "name": "Tequila"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Triple Sec",
+        "name": "Triple Sec",
         "label": "Cointreau"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into cocktail glass rimmed with salt (note:Fruit Margarita - blend selected fruit with the above recipe)."
-  },
-  {
-    "name": "French 75",
-    "glass": "champagne-tulip",
-    "category": "Sparkling Cocktail",
-    "imgUrl": "https://assets.epicurious.com/photos/6123d145663e652dbef9886e/2:3/w_2940,h_4410,c_limit/French75_RECIPE_082021_20487.jpg",
-    "ingredients": [
-      {
-        "unit": "cl",
-        "amount": 3,
-        "ingredient": "Gin"
-      },
-      {
-        "unit": "cl",
-        "amount": 1.5,
-        "ingredient": "Lemon juice"
-      },
-      {
-        "unit": "dashes",
-        "amount": 2,
-        "ingredient": "Syrup",
-        "label": "Sugar syrup"
-      },
-      {
-        "unit": "cl",
-        "amount": 6,
-        "ingredient": "Champagne"
-      }
-    ],
-    "preparation": "Shake with ice cubes, except for champagne. Strain into a champagne flute. Top up with champagne. Stir gently."
   },
   {
     "name": "Yellow Bird",
@@ -664,22 +721,22 @@
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Galliano"
+        "name": "Galliano"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "preparation": "Shake and strain into a chilled cocktail glass."
@@ -693,17 +750,17 @@
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Coconut milk"
+        "name": "Coconut milk"
       }
     ],
     "garnish": "Pineapple slice and a cherry",
@@ -718,18 +775,18 @@
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Cherry liqueur",
+        "name": "Cherry liqueur",
         "label": "Maraschino"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       }
     ],
     "preparation": "Shake and strain into a chilled cocktail glass."
@@ -743,12 +800,12 @@
       {
         "unit": "cl",
         "amount": 10,
-        "ingredient": "Prosecco"
+        "name": "Prosecco"
       },
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Peach puree"
+        "name": "Peach puree"
       }
     ],
     "preparation": "Pour peach puree into chilled glass and add sparkling wine. Stir gently. Variations: Puccini (fresh mandarin juice), Rossini (fresh strawberry puree), Tintoretto (fresh pomegranate juice)"
@@ -757,21 +814,22 @@
     "name": "Harvey Wallbanger",
     "glass": "highball",
     "category": "All Day Cocktail",
+    "imgUrl": "https://www.acouplecooks.com/wp-content/uploads/2021/02/Harvey-Wallbanger-005.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Galliano"
+        "name": "Galliano"
       },
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       }
     ],
     "garnish": "Orance slice and a cherry",
@@ -781,21 +839,22 @@
     "name": "Tequila Sunrise",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Tequila-Sunrise-003s.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Tequila"
+        "name": "Tequila"
       },
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Grenadine"
       }
     ],
@@ -806,23 +865,24 @@
     "name": "B52",
     "glass": "shot",
     "category": "After Dinner Cocktail",
+    "imgUrl":"https://i.pinimg.com/originals/d9/78/42/d9784268fdc61885cbc721a2c202248c.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Coffee liqueur",
+        "name": "Coffee liqueur",
         "label": "Kahlúa"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Cream liqueur",
+        "name": "Cream liqueur",
         "label": "Baileys Irish Cream"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Triple Sec",
+        "name": "Triple Sec",
         "label": "Grand Marnier"
       }
     ],
@@ -832,16 +892,17 @@
     "name": "Stinger",
     "glass": "martini",
     "category": "After Dinner Cocktail",
+    "imgUrl":"https://www.thedrinkkings.com/wp-content/uploads/2014/07/Stinger-6-630.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "White Créme de Menthe"
       }
     ],
@@ -851,43 +912,45 @@
     "name": "Golden Dream",
     "glass": "martini",
     "category": "After Dinner Cocktail",
+    "imgUrl":"https://www.themixer.com/en-us/wp-content/uploads/sites/2/2022/06/167.-Golden-Dream-envato-credit-bhofack2.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Galliano"
+        "name": "Galliano"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Cream"
+        "name": "Cream"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
   },
   {
-    "name": "God Mother",
+    "name": "Godmother",
     "glass": "old-fashioned",
+    "imgUrl": "https://images.food52.com/XTd-CL3N8TVsEc2742B2fGBU-5A=/1200x900/d5c175a7-564e-46ef-8842-ffe6db12ea52--2021-1210_sponsored_ketel-one_godmother_recipe_not-branded_3x2_julia-gartland_325.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "DiSaronno"
+        "name": "DiSaronno"
       }
     ],
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently."
@@ -896,19 +959,20 @@
     "name": "Spritz Veneziano",
     "glass": "old-fashioned",
     "category": "Sparkling Cocktail",
+    "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcSKbDB_uIkPsk44xr9mm1gf2lV2lKs11LmQ&usqp=CAU",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Prosecco"
+        "name": "Prosecco"
       },
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Aperol"
+        "name": "Aperol"
       },
       {
-        "ingredient": "Soda water", "amount": 1, "unit": "splash"
+        "name": "Soda water", "amount": 1, "unit": "splash"
       }
     ],
     "garnish": "Half an orange slice",
@@ -918,27 +982,28 @@
     "name": "Bramble",
     "glass": "old-fashioned",
     "category": "All Day Cocktail",
+    "imgUrl":"https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/bramble_92195_16x9.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Blackberry liqueur"
+        "name": "Blackberry liqueur"
       }
     ],
     "garnish": "Lemon slice and two blackberries",
@@ -947,22 +1012,23 @@
   {
     "name": "Alexander",
     "glass": "martini",
+    "imgUrl":"https://www.barschool.net/sites/default/files/styles/image_gallery_xl/public/2022-05/Brandy%20Alexander.jpg?h=2d7bcac0&itok=3szWVaR0",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "Brown Créme de Cacao"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Cream"
+        "name": "Cream"
       }
     ],
     "preparation": "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg."
@@ -971,22 +1037,23 @@
     "name": "Lemon Drop Martini",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://www.mirlandraskitchen.com/wp-content/uploads/2019/02/Lemon-Drop-Martini-1.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Vodka",
+        "name": "Vodka",
         "label": "Citron Vodka"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       }
     ],
     "garnish": "Lemon slice",
@@ -996,21 +1063,22 @@
     "name": "French Martini",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
+    "imgUrl":"https://chasingdaisiesblog.com/wp-content/uploads/2019/09/french-martini-42-of-34-735x1103.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Raspberry liqueur"
+        "name": "Raspberry liqueur"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       }
     ],
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass. Squeeze oil from lemon peel onto the drink."
@@ -1019,16 +1087,17 @@
     "name": "Black Russian",
     "glass": "old-fashioned",
     "category": "After Dinner Cocktail",
+    "imgUrl":"https://www.eatthelove.com/wp-content/uploads/2014/12/Black-Orange-Russian-5.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Coffee liqueur"
+        "name": "Coffee liqueur"
       }
     ],
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently. Note: for White Russian, float fresh cream on the top and stir gently."
@@ -1037,21 +1106,22 @@
     "name": "Bloody Mary",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://alushlifemanual.com/wp-content/uploads/2020/04/Blood-Mary.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Tomato juice"
+        "name": "Tomato juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "special": "2 to 3 dashes of Worcestershire Sauce"
@@ -1073,33 +1143,34 @@
     "name": "Mai-tai",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://robbreport.com/wp-content/uploads/2020/07/mai-tai.jpg?w=1000",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Dark rum"
+        "name": "Dark rum"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Triple Sec",
+        "name": "Triple Sec",
         "label": "Orange Curaçao"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Orgeat syrup"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "garnish": "Pineapple spear, mint leaves and lime wedge",
@@ -1109,22 +1180,23 @@
     "name": "Barracuda",
     "glass": "margarita",
     "category": "Sparkling Cocktail",
+    "imgUrl":"https://rezepte.genius.tv/wp-content/uploads/2021/07/Barracuda_shutterstock_1968998998.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Dark rum",
+        "name": "Dark rum",
         "label": "Gold rum"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Galliano"
+        "name": "Galliano"
       },
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       },
       {
         "special": "1 dash Lime juice"
@@ -1138,26 +1210,27 @@
     "name": "Sex on the Beach",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://hips.hearstapps.com/hmg-prod/images/delish-191217-sex-on-the-beach-109-landscape-pf-1-1577742797.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Peach schnapps"
+        "name": "Peach schnapps"
       },
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Cranberry juice"
+        "name": "Cranberry juice"
       },
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       }
     ],
     "garnish": "Orange slice",
@@ -1167,16 +1240,17 @@
     "name": "Monkey Gland",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://www.thespruceeats.com/thmb/U6Ezws6Lt8bNy3LmJWfh5vTov8k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/monkey-gland-cocktail-recipe-7593220-hero-5beae93646e0fb002d6e671c.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       },
       {
         "special": "2 drops Absinthe"
@@ -1191,22 +1265,23 @@
     "name": "Irish Coffee",
     "glass": "hot-drink",
     "category": "Hot Drink",
+    "imgUrl":"https://images.absolutdrinks.com/drink-images/Raw/Absolut/dde5b617-048f-4af0-8c7f-0b2818407acb.jpg?imwidth=500",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Irish whiskey"
       },
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Hot coffee"
+        "name": "Hot coffee"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Cream"
+        "name": "Cream"
       },
       {
         "special": "1 teaspoon of brown sugar"
@@ -1218,19 +1293,20 @@
     "name": "Sazerac",
     "glass": "old-fashioned",
     "category": "After Dinner Cocktail",
+    "imgUrl": "https://assets-prd.punchdrink.com/wp-content/uploads/2018/03/Article-Best-Sazerac-Absinthe-Cocktail-Recipe-New-Orleans.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Absinthe"
+        "name": "Absinthe"
       },
       {
-        "ingredient": "Sugar cube", "amount": 1, "unit": ""
+        "name": "Sugar cube", "amount": 1, "unit": ""
       },
       {
         "special": "2 dashes Peychaud’s bitters"
@@ -1244,16 +1320,17 @@
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
     "description": "This cocktail predates the Negroni. Mr Campari began serving cocktails in 1860 in Malin. Campari. vermouth and soda became a popular drink among american tourists. While the Americano doesn’t have quite the romance that’s grown around the Negroni, it also doesn’t have nearly as much alcohol. It’s a lighter and saner choice for summertime drinking.",
+    "imgUrl":"https://static.fanpage.it/wp-content/uploads/sites/21/2018/08/cocktail-americano-1.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Campari"
+        "name": "Campari"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Red vermouth"
       },
       {
@@ -1267,46 +1344,47 @@
     "name": "Singapore Sling",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://mybartender.com/wp-content/uploads/2021/04/Singapore-Sling.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Cherry liqueur"
+        "name": "Cherry liqueur"
       },
       {
         "unit": "cl",
         "amount": 0.75,
-        "ingredient": "Triple Sec",
+        "name": "Triple Sec",
         "label": "Cointreau"
       },
       {
         "unit": "cl",
         "amount": 0.75,
-        "ingredient": "DOM Bénédictine"
+        "name": "DOM Bénédictine"
       },
       {
         "unit": "cl",
         "amount": 12.0,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Grenadine"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 1, "unit": "dashes"
+        "name": "Angostura Bitters", "amount": 1, "unit": "dashes"
       }
     ],
     "garnish": "Pineapple slice and a cherry",
@@ -1314,17 +1392,18 @@
   },
   {
     "name": "French Connection",
+    "imgUrl":"https://images.ctfassets.net/3s5io6mnxfqz/LxMfyl5oqfERxN49OkGzF/a300e19fa1d8a8ac0e55bfe287218ddf/AdobeStock_314939741.jpeg",
     "glass": "old-fashioned",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "DiSaronno"
+        "name": "DiSaronno"
       }
     ],
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently."
@@ -1333,21 +1412,22 @@
     "name": "Moscow Mule",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://www.gutekueche.at/storage/media/recipe/6310/conv/moscow-mule-default.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 12,
-        "ingredient": "Ginger beer"
+        "name": "Ginger beer"
       },
       {
         "unit": "cl",
         "amount": 0.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "special": "1 slice lime in a highball glass"
@@ -1360,27 +1440,28 @@
     "name": "John Collins",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl": "https://images.ctfassets.net/3s5io6mnxfqz/7sw5LYRUpwyCUVS5omYYj8/a3eabe94d80dec89a2484bd22d830712/AdobeStock_126120722.jpeg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Soda water"
+        "name": "Soda water"
       }
     ],
     "garnish": "Lemon slice and a cherry",
@@ -1390,16 +1471,17 @@
     "name": "Kir",
     "glass": "white-wine",
     "category": "Before Dinner Cocktail",
+    "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDI8fOydj0AII0eigVxJl_6EmHMPPlsC7-ag&usqp=CAU",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Dry White Wine"
+        "name": "Dry White Wine"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "Créme de Cassis"
       }
     ],
@@ -1409,11 +1491,12 @@
     "name": "Mint Julep",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPHcrfPduOWUNv0kfDNr4iuq0fSXdEUu19_g&usqp=CAU",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Bourbon whiskey"
       },
       {
@@ -1433,16 +1516,17 @@
     "name": "Tommy's Margarita",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://cdn.shopify.com/s/files/1/0625/2829/1045/files/Untitled_design_a132e857-7e56-48ba-85ed-40860e176c02_720x.jpg?v=1645079187",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Tequila"
+        "name": "Tequila"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "special": "2 bar spoons of Agave nectar"
@@ -1454,21 +1538,22 @@
     "name": "Paradise",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://i2.wp.com/dishesdelish.com/wp-content/uploads/2017/05/Destination-Paradise-Cocktail-5.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Apricot brandy"
+        "name": "Apricot brandy"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
@@ -1477,22 +1562,23 @@
     "name": "Dirty Martini",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
+    "imgUrl":"https://www.lemontreedwelling.com/wp-content/uploads/2021/01/dirty-martini-featured-0952.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Dry vermouth"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Olive juice"
+        "name": "Olive juice"
       }
     ],
     "garnish": "Green olive",
@@ -1502,22 +1588,23 @@
     "name": "Champagne Cocktail",
     "glass": "champagne-flute",
     "category": "Sparkling Cocktail",
+    "imgUrl":"https://www.foodrepublic.com/wp-content/uploads/2014/02/Champagne-75.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 9,
-        "ingredient": "Champagne"
+        "name": "Champagne"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Cognac"
+        "name": "Cognac"
       },
       {
-        "ingredient": "Angostura Bitters", "amount": 2, "unit": "dashes"
+        "name": "Angostura Bitters", "amount": 2, "unit": "dashes"
       },
       {
-        "ingredient": "Sugar cube", "amount": 1, "unit": ""
+        "name": "Sugar cube", "amount": 1, "unit": ""
       }
     ],
     "garnish": "Orange slice and a cherry",
@@ -1527,27 +1614,28 @@
     "name": "Mary Pickford",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://noseychef.com/wp-content/uploads/2019/04/IMG_4540.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Cherry liqueur",
+        "name": "Cherry liqueur",
         "label": "Maraschino"
       },
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Pineapple juice"
+        "name": "Pineapple juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Grenadine"
       }
     ],
@@ -1557,83 +1645,66 @@
     "name": "Hemingway Special",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://upload.wikimedia.org/wikipedia/commons/2/22/Hemingway_Daiquiri.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Grapefruit juice"
+        "name": "Grapefruit juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Cherry liqueur",
+        "name": "Cherry liqueur",
         "label": "Maraschino"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into a double cocktail glass."
   },
   {
-    "name": "Dark 'n' Stormy",
-    "glass": "highball",
-    "category": "Longdrink",
-    "ingredients": [
-      {
-        "unit": "cl",
-        "amount": 6,
-        "ingredient": "Dark rum"
-      },
-      {
-        "unit": "cl",
-        "amount": 10,
-        "ingredient": "Ginger beer"
-      }
-    ],
-    "garnish": "Lime wedge",
-    "preparation": "Build into highball glass filled with ice. Add rum first and top it with ginger beer."
-  },
-  {
     "name": "Ramos Fizz",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://cdn.shopify.com/s/files/1/0148/1945/9126/articles/The_Ramos_Gin_Fizz_720x.jpg?v=1586377427",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       },
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Cream"
+        "name": "Cream"
       },
       {
-        "ingredient": "Egg white", "amount": 1, "unit": ""
+        "name": "Egg white", "amount": 1, "unit": ""
       },
       {
         "special": "3 dashes Orange flower water"
@@ -1642,7 +1713,7 @@
         "special": "2 drops Vanilla extract"
       },
       {
-        "ingredient": "Soda water", "amount": 1, "unit": "fill"
+        "name": "Soda water", "amount": 1, "unit": "fill"
       }
     ],
     "preparation": "Pour all ingredients (except soda) in a mixing glass, dry shake (no ice) for two minutes, add ice and hard shake for another minute. Strain into a highball glass without ice, top with soda."
@@ -1651,27 +1722,28 @@
     "name": "Russian Spring Punch",
     "glass": "highball",
     "category": "Sparkling Cocktail",
+    "imgUrl":"https://images.squarespace-cdn.com/content/v1/5bcccf8b9b7d15579477a125/1597534887803-HGWLBD5G7XEMCB8DNME4/PSX_20200815_194052.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "Créme de Cassis"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Sugar syrup"
       }
     ],
@@ -1681,17 +1753,18 @@
   {
     "name": "God Father",
     "glass": "old-fashioned",
+    "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaZ_qU9KVlEaZMpZuwlsMRI8qF0y-ujN1bhg&usqp=CAU",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "Whiskey",
+        "name": "Whiskey",
         "label": "Scotch whisky"
       },
       {
         "unit": "cl",
         "amount": 3.5,
-        "ingredient": "DiSaronno"
+        "name": "DiSaronno"
       }
     ],
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently."
@@ -1700,28 +1773,29 @@
     "name": "Cosmopolitan",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://recipetineats.com/wp-content/uploads/2019/10/Cosmopolitan-cocktail_0.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Vodka",
+        "name": "Vodka",
         "label": "Citron Vodka"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Triple Sec",
+        "name": "Triple Sec",
         "label": "Cointreau"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Cranberry juice"
+        "name": "Cranberry juice"
       }
     ],
     "garnish": "Lime slice",
@@ -1731,75 +1805,49 @@
     "name": "Dry Martini",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
+    "imgUrl":"https://www.cocktailia.se/images/74/cv2c96-dry-martini-drink-recept-1600x900_98x61.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 6,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Dry vermouth"
       }
     ],
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
   },
   {
-    "name": "Between the Sheets",
-    "glass": "martini",
-    "category": "All Day Cocktail",
-    "ingredients": [
-      {
-        "unit": "cl",
-        "amount": 3,
-        "ingredient": "White rum"
-      },
-      {
-        "unit": "cl",
-        "amount": 3,
-        "ingredient": "Cognac"
-      },
-      {
-        "unit": "cl",
-        "amount": 3,
-        "ingredient": "Triple Sec"
-      },
-      {
-        "unit": "cl",
-        "amount": 2,
-        "ingredient": "Lemon juice"
-      }
-    ],
-    "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
-  },
-  {
     "name": "Casino",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://kitchenswagger.com/wp-content/uploads/2017/02/aviation-cocktail-22.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Gin",
+        "name": "Gin",
         "label": "Old Tom Gin"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Cherry liqueur",
+        "name": "Cherry liqueur",
         "label": "Maraschino"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Orange Bitters"
+        "name": "Orange Bitters"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       }
     ],
     "garnish": "Lemon twist and a cherry",
@@ -1809,11 +1857,12 @@
     "name": "Caipirinha",
     "glass": "old-fashioned",
     "category": "All Day Cocktail",
+    "imgUrl":"https://hedgecombers.com/wp-content/uploads/2015/08/Cocktail-2064-2.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Cachaca"
+        "name": "Cachaca"
       },
       {
         "special": "half fresh lime cut into 4 wedges"
@@ -1827,27 +1876,28 @@
   {
     "name": "Vampiro",
     "glass": "highball",
+    "imgUrl":"https://images.ctfassets.net/3s5io6mnxfqz/6XvWa74mwOz6ypZx8CM16M/86094c5767d965b7537b3abeff52ca23/AdobeStock_143827814.jpeg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 5,
-        "ingredient": "Tequila",
+        "name": "Tequila",
         "label": "Silver Tequila"
       },
       {
         "unit": "cl",
         "amount": 7,
-        "ingredient": "Tomato juice"
+        "name": "Tomato juice"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Orange juice"
+        "name": "Orange juice"
       },
       {
         "unit": "cl",
         "amount": 1,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       },
       {
         "special": "1 teaspoon clear honey"
@@ -1872,21 +1922,22 @@
     "name": "Kamikaze",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://www.thespruceeats.com/thmb/TK1zfReEUS5cU7Tu-uoDAXorERM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kamikaze-cocktail-recipe-759313-hero-01-755709e3ac474259951edc0870b5b261.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Lime juice"
+        "name": "Lime juice"
       }
     ],
     "preparation": "Shake and strain into a chilled cocktail glass."
@@ -1895,21 +1946,22 @@
     "name": "White Lady",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://static.fanpage.it/wp-content/uploads/sites/22/2021/05/white-lady.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into large cocktail glass."
@@ -1918,21 +1970,22 @@
     "name": "Angel Face",
     "glass": "martini",
     "category": "All Day Cocktail",
+    "imgUrl":"https://www.coqtailmilano.com/wp-content/uploads/2021/06/Angel-face-cocktail-ricetta-ingredienti-dosi-Coqtail-Milano.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Apricot brandy"
+        "name": "Apricot brandy"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Calvados"
+        "name": "Calvados"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into a cocktail glass."
@@ -1940,22 +1993,23 @@
   {
     "name": "Rose",
     "glass": "martini",
+    "imgUrl":"https://www.thespruceeats.com/thmb/1d4wk0jEU8rVy7AchaKQSJs79YM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rose-martini-recipe-760040-hero-01-21fad368744442a89b4f92abac4b7838.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 2,
-        "ingredient": "Kirsch"
+        "name": "Kirsch"
       },
       {
         "unit": "cl",
         "amount": 4,
-        "ingredient": "Vermouth",
+        "name": "Vermouth",
         "label": "Dry vermouth"
       },
       {
         "unit": "dashes",
         "amount": 3,
-        "ingredient": "Strawberry Syrup",
+        "name": "Strawberry Syrup",
         "label": "Sugar syrup"
       }
     ],
@@ -1965,41 +2019,42 @@
     "name": "Long Island Iced Tea",
     "glass": "highball",
     "category": "Longdrink",
+    "imgUrl":"https://img.delicious.com.au/1zeXai3Q/del/2020/01/long-island-iced-tea-122851-2.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Tequila"
+        "name": "Tequila"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Vodka"
+        "name": "Vodka"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "White rum"
+        "name": "White rum"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Triple Sec"
+        "name": "Triple Sec"
       },
       {
         "unit": "cl",
         "amount": 1.5,
-        "ingredient": "Gin"
+        "name": "Gin"
       },
       {
         "unit": "cl",
         "amount": 2.5,
-        "ingredient": "Lemon juice"
+        "name": "Lemon juice"
       },
       {
         "unit": "cl",
         "amount": 3.0,
-        "ingredient": "Syrup",
+        "name": "Syrup",
         "label": "Gomme syrup"
       },
       {
@@ -2013,23 +2068,24 @@
     "name": "Grasshopper",
     "glass": "martini",
     "category": "After Dinner Cocktail",
+    "imgUrl":"https://receptfavoriter.se/sites/default/files/styles/recipe_4x3/public/grasshopper_cocktail_1200.jpg",
     "ingredients": [
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "White Créme de Cacao"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Créme liqueur",
+        "name": "Créme liqueur",
         "label": "Green Créme de Menthe"
       },
       {
         "unit": "cl",
         "amount": 3,
-        "ingredient": "Cream"
+        "name": "Cream"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."

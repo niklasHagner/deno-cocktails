@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Absinthe",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Aperol",
+    "abv": 11,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Apricot brandy",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Blackberry liqueur",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 6
+  },
+  {
+    "name": "Cachaca",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Calvados",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Campari",
+    "abv": 25,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Champagne",
+    "abv": 12,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Cherry liqueur",
+    "abv": 30,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Coconut milk",
+    "abv": 0,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Coffee liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Cognac",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Cola",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Cranberry juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Cream",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Cream liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Créme liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Dark rum",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "DiSaronno",
+    "abv": 28,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "DOM Bénédictine",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Drambuie",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Dry White Wine",
+    "abv": 12,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Galliano",
+    "abv": 30,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Gin",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Ginger Ale",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Ginger beer",
+    "abv": 5,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Grapefruit juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Hot coffee",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Kirsch",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Lemon juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Lillet Blonde",
+    "abv": 15,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 6
+  },
+  {
+    "name": "Lime juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Olive juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Orange Bitters",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Orange juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Peach puree",
+    "abv": 0,
+    "subType": null,
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Peach schnapps",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Pineapple juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Pisco",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Prosecco",
+    "abv": 12,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Raspberry liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Red Port",
+    "abv": 20,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Soda water",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Syrup",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Tequila",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Tomato juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Triple Sec",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Vermouth",
+    "abv": 17,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Vodka",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Whiskey",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "White rum",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Angostura Bitters",
+    "abv": 44,
+    "subType": "bitter",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Mint sprigs",
+    "abv": null,
+    "subType": "spice",
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Egg white",
+    "abv": null,
+    "subType": null,
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Egg yolk",
+    "abv": 0,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Plain water",
+    "abv": null,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": false,
+    "commonLevel": 0
+  },
+  {
+    "name": "Sugar cube",
+    "abv": null,
+    "subType": "solid",
+    "mainType": "solid",
+    "isRelevant": false,
+    "commonLevel": 0
+  }
+]

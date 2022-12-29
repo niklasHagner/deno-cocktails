@@ -10,7 +10,7 @@ export interface Cocktail {
 export interface Ingredient {
   unit: string;
   amount: number;
-  ingredient: string;
+  name: string;
   special?: string;
 }
 
@@ -27,7 +27,7 @@ export function CocktailCard(props) {
             <ul>
               {props.cocktail.ingredients.map((ingredient) => (
                 <li class="ingredient">
-                  {ingredient.amount} {ingredient.unit} {ingredient.ingredient}
+                  {ingredient.amount} {ingredient.unit} {ingredient.name}
                   {ingredient.special && ingredient.special}
                 </li>
               ))}
