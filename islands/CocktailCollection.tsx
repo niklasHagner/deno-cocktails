@@ -21,7 +21,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     <>
       <h1>Pick ingredients to get cocktail suggestions</h1>
       <section class="ingredients">
-        {props.allIngredientObjectsFromFile.map((ingredientObj: any): Element => (
+        {props.allIngredientObjectsFromFile.map((ingredientObj) => (
           <IngredientFilterButton
             ingredientObj={ingredientObj}
             checked={false}

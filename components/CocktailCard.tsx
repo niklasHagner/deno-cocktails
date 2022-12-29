@@ -8,9 +8,9 @@ export interface Cocktail {
   imgUrl: string;
 }
 export interface Ingredient {
-  unit: string;
-  amount: number;
-  name: string;
+  name?: string;
+  unit?: string;
+  amount?: number;
   special?: string;
 }
 

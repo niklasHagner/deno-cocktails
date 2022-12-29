@@ -1,9 +1,10 @@
 import { useState } from "preact/hooks";
 import { Button } from "../components/Button.tsx";
-
+import { Ingredient } from "../components/CocktailCard.tsx"
 interface IngredientFilterProps {
   checked: boolean;
   ingredientObj;
+  // deno-lint-ignore ban-types
   onClick: Function;
 }
 
