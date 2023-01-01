@@ -23,7 +23,7 @@ export const handler: Handlers<Cocktail | null> = {
     const ingredientsJsonFile = await Deno.readTextFile("data/ingredients.json");
     const allIngredientObjectsFromFile = await JSON.parse(ingredientsJsonFile)
       .filter(x => x.isRelevant)
-      .sort((a, b) => (a.commonLevel > b.commonLevel) ? 1 : (a.commonLevel === b.commonLevel) ? ((a.abv > b.abv) ? -1 : 1) : -1 )
+      // .sort((a, b) => (a.commonLevel > b.commonLevel) ? 1 : (a.commonLevel === b.commonLevel) ? ((a.abv > b.abv) ? -1 : 1) : -1 )
 
     const viewData = { cocktails, ingredientNames, allIngredientObjectsFromFile };
     return ctx.render(viewData);

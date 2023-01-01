@@ -1,6 +1,79 @@
 [
   {
-    "name": "Absinthe",
+    "name": "Whiskey",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Gin",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Vodka",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "White rum",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Dark rum",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Cognac",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+
+  {
+    "name": "Tequila",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Vermouth",
+    "abv": 17,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Angostura Bitters",
+    "abv": 44,
+    "subType": "bitter",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Orange Bitters",
     "abv": 40,
     "subType": "liqueur",
     "mainType": "liquid",
@@ -16,36 +89,12 @@
     "commonLevel": 2
   },
   {
-    "name": "Apricot brandy",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Blackberry liqueur",
+    "name": "Triple Sec",
     "abv": 40,
     "subType": "liqueur",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 6
-  },
-  {
-    "name": "Cachaca",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
-    "name": "Calvados",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
+    "commonLevel": 1
   },
   {
     "name": "Campari",
@@ -64,36 +113,124 @@
     "commonLevel": 1
   },
   {
-    "name": "Cherry liqueur",
+    "name": "Prosecco",
+    "abv": 12,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Cachaca",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Dry White Wine",
+    "abv": 12,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Red Port",
+    "abv": 20,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Calvados",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Drambuie",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Galliano",
     "abv": 30,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "DiSaronno",
+    "abv": 28,
     "subType": "liqueur",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 5
   },
   {
-    "name": "Coconut milk",
+    "name": "Lemon juice",
     "abv": 0,
-    "subType": null,
+    "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 3
+    "commonLevel": 0
   },
   {
-    "name": "Coffee liqueur",
-    "abv": 20,
-    "subType": "liqueur",
+    "name": "Lime juice",
+    "abv": 0,
+    "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 3
+    "commonLevel": 0
   },
   {
-    "name": "Cognac",
-    "abv": 40,
-    "subType": "booze",
+    "name": "Orange juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Grapefruit juice",
+    "abv": 0,
+    "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 2
+  },
+  {
+    "name": "Olive juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Ginger Ale",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Ginger beer",
+    "abv": 5,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
   },
   {
     "name": "Cola",
@@ -120,102 +257,6 @@
     "commonLevel": 1
   },
   {
-    "name": "Cream liqueur",
-    "abv": 20,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Créme liqueur",
-    "abv": 20,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Dark rum",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "DiSaronno",
-    "abv": 28,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "DOM Bénédictine",
-    "abv": 40,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Drambuie",
-    "abv": 40,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 4
-  },
-  {
-    "name": "Dry White Wine",
-    "abv": 12,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Galliano",
-    "abv": 30,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
-    "name": "Gin",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Ginger Ale",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Ginger beer",
-    "abv": 5,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Grapefruit juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 2
-  },
-  {
     "name": "Hot coffee",
     "abv": 0,
     "subType": "mixer",
@@ -224,47 +265,7 @@
     "commonLevel": 1
   },
   {
-    "name": "Kirsch",
-    "abv": 40,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 4
-  },
-  {
-    "name": "Lemon juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Lillet Blonde",
-    "abv": 15,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 6
-  },
-  {
-    "name": "Lime juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Olive juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Orange Bitters",
+    "name": "Absinthe",
     "abv": 40,
     "subType": "liqueur",
     "mainType": "liquid",
@@ -272,12 +273,12 @@
     "commonLevel": 3
   },
   {
-    "name": "Orange juice",
-    "abv": 0,
-    "subType": "mixer",
+    "name": "Apricot brandy",
+    "abv": 40,
+    "subType": "booze",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 0
+    "commonLevel": 5
   },
   {
     "name": "Peach puree",
@@ -311,30 +312,7 @@
     "isRelevant": true,
     "commonLevel": 3
   },
-  {
-    "name": "Prosecco",
-    "abv": 12,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 2
-  },
-  {
-    "name": "Raspberry liqueur",
-    "abv": 20,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Red Port",
-    "abv": 20,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
+
   {
     "name": "Soda water",
     "abv": 0,
@@ -350,70 +328,6 @@
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 0
-  },
-  {
-    "name": "Tequila",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Tomato juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
-    "name": "Triple Sec",
-    "abv": 40,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Vermouth",
-    "abv": 17,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Vodka",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Whiskey",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "White rum",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Angostura Bitters",
-    "abv": 44,
-    "subType": "bitter",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
   },
   {
     "name": "Mint sprigs",
@@ -438,6 +352,95 @@
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 1
+  },
+
+  {
+    "name": "Tomato juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Cream liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Kirsch",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Raspberry liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "DOM Bénédictine",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Lillet Blonde",
+    "abv": 15,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 6
+  },
+  {
+    "name": "Cherry liqueur",
+    "abv": 30,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Coconut milk",
+    "abv": 0,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Coffee liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Créme liqueur",
+    "abv": 20,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Blackberry liqueur",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 6
   },
   {
     "name": "Plain water",
