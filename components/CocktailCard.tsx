@@ -2,7 +2,7 @@ export interface Cocktail {
   name: string;
   glass: string;
   category: string;
-  ingredients: Array<Ingredient>;
+  ingredients: Ingredient[];
   granish: string;
   preparation: string;
   imgUrl: string;

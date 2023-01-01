@@ -7,9 +7,9 @@ import {
 import IngredientFilterButton from "./IngredientFilterButton.tsx";
 
 interface CocktailCollectionProps {
-  cocktails: Array<Cocktail>;
-  ingredientNames: Array<string>;
-  allIngredientObjectsFromFile: Array<Ingredient>;
+  cocktails: Cocktail[];
+  ingredientNames: string[];
+  allIngredientObjectsFromFile: Ingredient[];
 }
 
 export default function CocktailCollection(props: CocktailCollectionProps) {
@@ -36,32 +36,29 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
               }
               setSelectedIngredientNames(selectedIngredientNames);
 
-              let filteredCocktails = allCocktails.filter((cocktail) =>
-                cocktail.ingredients.some((x) =>
-                  selectedIngredientNames.includes(x.name)
-                )
-              );
-              filteredCocktails.sort((a, b) => {
-                const aCount = a.ingredients.filter((x) =>
-                  x.name === ingredientObj.name
-                ).length;
-                const bCount = b.ingredients.filter((x) =>
-                  x.name === ingredientObj.name
-                ).length;
-                const aPercentageOfTotal = aCount / a.ingredients.length;
-                const bPercentageOfTotal = bCount / b.ingredients.length;
-                if (aPercentageOfTotal > 0.6 || bPercentageOfTotal > 0.6) {
-                  return a < b ? -1 : 1;
-                }
-                if (aCount < bCount) {
-                  return -1;
-                }
-                if (aCount > bCount) {
-                  return 1;
-                }
+              let filteredCocktails = allCocktails.
+                filter((cocktail) => 
+                cocktail.ingredients
+                .some(x => selectedIngredientNames.includes(x.name)));
+                .sort((a, b) => {
+                  const aMatchingIngredientCount = a.ingredients.filter(x => selectedIngredientNames.some(x.name)).length;
+                  const bMatchingIngredientCount = b.ingredients.filter(x => selectedIngredientNames.some(x.name)).length;
+                  const aPercentageOfTotal = aMatchingIngredientCount / a.ingredients.length;
+                  const bPercentageOfTotal = bMatchingIngredientCount / b.ingredients.length;
+                  // if (aPercentageOfTotal > 0.6 || bPercentageOfTotal > 0.6) {
+                  //   return a < b ? -1 : 1;
+                  // }
+                  // if (aMatchingIngredientCount < bMatchingIngredientCount) {
+                  //   return -1;
+                  // }
+                  // if (aMatchingIngredientCount > bMatchingIngredientCount) {
+                  //   return 1;
+                  // }
+                  return aPercentageOfTotal - bPercentageOfTotal;
 
-                return 0;
-              }).reverse();
+                  return 0;
+                })
+                .reverse();
 
               if (selectedIngredientNames.length <= 0) {
                 filteredCocktails = allCocktails;
