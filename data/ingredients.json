@@ -40,15 +40,6 @@
     "commonLevel": 0
   },
   {
-    "name": "Cognac",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 2
-  },
-
-  {
     "name": "Tequila",
     "abv": 40,
     "subType": "booze",
@@ -73,12 +64,12 @@
     "commonLevel": 1
   },
   {
-    "name": "Orange Bitters",
-    "abv": 40,
-    "subType": "liqueur",
+    "name": "Campari",
+    "abv": 25,
+    "subType": "booze",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 3
+    "commonLevel": 1
   },
   {
     "name": "Aperol",
@@ -89,17 +80,25 @@
     "commonLevel": 2
   },
   {
-    "name": "Triple Sec",
+    "name": "Cognac",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Orange Bitters",
     "abv": 40,
     "subType": "liqueur",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 1
+    "commonLevel": 3
   },
   {
-    "name": "Campari",
-    "abv": 25,
-    "subType": "booze",
+    "name": "Triple Sec",
+    "abv": 40,
+    "subType": "liqueur",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 1
@@ -177,46 +176,6 @@
     "commonLevel": 5
   },
   {
-    "name": "Lemon juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Lime juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Orange juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Grapefruit juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 2
-  },
-  {
-    "name": "Olive juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
     "name": "Ginger Ale",
     "abv": 0,
     "subType": "mixer",
@@ -227,38 +186,6 @@
   {
     "name": "Ginger beer",
     "abv": 5,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Cola",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Cranberry juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 2
-  },
-  {
-    "name": "Cream",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Hot coffee",
-    "abv": 0,
     "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
@@ -281,14 +208,6 @@
     "commonLevel": 5
   },
   {
-    "name": "Peach puree",
-    "abv": 0,
-    "subType": null,
-    "mainType": "solid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
     "name": "Peach schnapps",
     "abv": 40,
     "subType": "liqueur",
@@ -297,67 +216,9 @@
     "commonLevel": 4
   },
   {
-    "name": "Pineapple juice",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 4
-  },
-  {
     "name": "Pisco",
     "abv": 40,
     "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-
-  {
-    "name": "Soda water",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Syrup",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 0
-  },
-  {
-    "name": "Mint sprigs",
-    "abv": null,
-    "subType": "spice",
-    "mainType": "solid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
-    "name": "Egg white",
-    "abv": null,
-    "subType": null,
-    "mainType": "solid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Egg yolk",
-    "abv": 0,
-    "subType": null,
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-
-  {
-    "name": "Tomato juice",
-    "abv": 0,
-    "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 3
@@ -411,14 +272,6 @@
     "commonLevel": 5
   },
   {
-    "name": "Coconut milk",
-    "abv": 0,
-    "subType": null,
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
     "name": "Coffee liqueur",
     "abv": 20,
     "subType": "liqueur",
@@ -441,6 +294,151 @@
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 6
+  },
+  {
+    "name": "Cola",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Lemon juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Lime juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Orange juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Grapefruit juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Olive juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Soda water",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Syrup",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Mint sprigs",
+    "abv": null,
+    "subType": "spice",
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Egg white",
+    "abv": null,
+    "subType": null,
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Egg yolk",
+    "abv": 0,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Coconut milk",
+    "abv": 0,
+    "subType": null,
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+
+  {
+    "name": "Pineapple juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 4
+  },
+  {
+    "name": "Cranberry juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 2
+  },
+  {
+    "name": "Peach puree",
+    "abv": 0,
+    "subType": null,
+    "mainType": "solid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
+    "name": "Tomato juice",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Cream",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Hot coffee",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
   },
   {
     "name": "Plain water",
