@@ -32,9 +32,6 @@ export function CocktailCard(props) {
                 </li>
               ))}
             </ul>
-            <p class="glass">
-              <span class="label">Glass:</span> {props.cocktail.glass}
-            </p>
             {props.cocktail.description && (
               <p>
                 <span class="label">Description:</span>{" "}
@@ -47,6 +44,8 @@ export function CocktailCard(props) {
               </p>
             )}
             <p>{props.cocktail.preparation}</p>
+            <p><span class="label">Glass:</span>{props.glass}</p>
+            <p><span class="label">Category:</span>{props.category}</p>
           </div>
         </div>
       </div>

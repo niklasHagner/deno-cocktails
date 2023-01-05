@@ -47,7 +47,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
                   const bPercentageOfTotal = bMatchingIngredientCount / b.ingredients.length;
                   // if (aPercentageOfTotal > 0.6 || bPercentageOfTotal > 0.6) {
                   //   return a < b ? -1 : 1;
-                  // }
+                  // }  
                   // if (aMatchingIngredientCount < bMatchingIngredientCount) {
                   //   return -1;
                   // }

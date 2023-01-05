@@ -577,7 +577,32 @@
     ],
     "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top."
   },
- 
+  {
+    "name": "4:2:1 Gin Sour / Basil Smash",
+    "glass": "old-fashioned",
+    "category": "All Day Cocktail",
+    "imgUrl": "https://cdn.cafe.se/app/uploads/2022/12/cocktail_edit_day3_0731-min.jpeg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4,
+        "name": "Gin"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Syrup",
+        "label": "Raspberry syrup"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Lemon juice"
+      }
+    ],
+    "preparation": "Shake with ice cubes. Strain into cocktail glass.",
+    "description": "The 4:2:1 sour with gin has ENDLESS variations. Add 1cl of black current liquer and you have a Bramble. Or basil for a Basil Smash. Or cucumber, soda water, campari, bitters, cucumber..."
+  },
   {
     "name": "Clover Club",
     "glass": "martini",
