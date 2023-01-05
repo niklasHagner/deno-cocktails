@@ -463,6 +463,68 @@
     "preparation": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake. Pour into large glass, filled with ice. Add Angostura bitters, “on top”."
   },
   {
+    "name": "Bourbon Aperol",
+    "glass": "old-fashioned",
+    "category": "",
+    "imgUrl": "https://www.garnishwithlemon.com/wp-content/uploads/2022/10/Bourbon-Aperol-1-of-3.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4,
+        "name": "Bourbon"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Syrup"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Prosecco"
+      }
+    ],
+    "garnish": "Orange wedge",
+    "preparation": "Build all ingredients in a rock glass filled with ice.",
+    "description": "Named after the M.I.A. song, “Paper Planes”, that was super popular during the summer of 2008 when the drink was created by NYC bartender Sam Ross"
+  },
+  {
+    "name": "Zesty Aperol Sour",
+    "glass": "old-fashioned",
+    "category": "",
+    "imgUrl": "https://cookingwithelo.com/wp-content/uploads/2022/04/Aperol-sour-recipe.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Aperol"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Gin"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Syrup"
+      },
+      {
+        "unit": "cl",
+        "amount": 5,
+        "name": "Orange juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 5,
+        "name": "Lemon juice"
+      }
+    ],
+    "garnish": "Lime slice",
+    "preparation": "Build all ingredients in a rock glass filled with ice.",
+    "description": "Great for a punch bowl"
+  },
+  {
     "name": "Sea Breeze",
     "glass": "highball",
     "category": "Longdrink",
