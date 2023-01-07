@@ -7,9 +7,9 @@ import {
 import IngredientFilterButton from "./IngredientFilterButton.tsx";
 
 interface CocktailCollectionProps {
-  cocktails: Cocktail[];
-  ingredientNames: string[];
-  allIngredientObjectsFromFile: Ingredient[];
+  cocktails: Array<Cocktail>;
+  ingredientNames: Array<string>;
+  allIngredientObjectsFromFile: Array<Ingredient>;
 }
 
 export default function CocktailCollection(props: CocktailCollectionProps) {
@@ -17,7 +17,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
   const [selectedIngredientNames, setSelectedIngredientNames] = useState([]);
   const allCocktails = props.cocktails;
 
-  function clickFilter(ingredientObj) {
+  function clickFilter(ingredientObj: Ingredient) {
     if (selectedIngredientNames.includes(ingredientObj.name)) {
       const indexOfItemToPop = selectedIngredientNames.indexOf(
         ingredientObj.name,
@@ -29,14 +29,18 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     setSelectedIngredientNames(selectedIngredientNames);
 
     let filteredCocktails = allCocktails.
-      filter((cocktail) => 
-      cocktail.ingredients
-      .some(x => selectedIngredientNames.includes(x.name)));
+      filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
       .sort((a, b) => {
-        const aMatchingIngredientCount = a.ingredients.filter(x => selectedIngredientNames.some(x.name)).length;
-        const bMatchingIngredientCount = b.ingredients.filter(x => selectedIngredientNames.some(x.name)).length;
-        const aPercentageOfTotal = aMatchingIngredientCount / a.ingredients.length;
-        const bPercentageOfTotal = bMatchingIngredientCount / b.ingredients.length;
+        const aMatchingIngredientCount = a.ingredients.filter(ingredient => selectedIngredientNames.some(ingredientName => ingredientName === ingredient.name)).length;
+        const bMatchingIngredientCount = b.ingredients.filter(ingredient => selectedIngredientNames.some(ingredientName => ingredientName === ingredient.name)).length;
+
+        const sortResult = aMatchingIngredientCount - bMatchingIngredientCount;
+        return sortResult;
+        
+
+        // const aPercentageOfTotal = aMatchingIngredientCount / a.ingredients.length;
+        // const bPercentageOfTotal = bMatchingIngredientCount / b.ingredients.length;
+        // return aPercentageOfTotal - bPercentageOfTotal;
         // if (aPercentageOfTotal > 0.6 || bPercentageOfTotal > 0.6) {
         //   return a < b ? -1 : 1;
         // }  
@@ -46,17 +50,13 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
         // if (aMatchingIngredientCount > bMatchingIngredientCount) {
         //   return 1;
         // }
-        return aPercentageOfTotal - bPercentageOfTotal;
-
-        return 0;
-      })
-      .reverse();
+        // return 1;
+      });
 
     if (selectedIngredientNames.length <= 0) {
       filteredCocktails = allCocktails;
     }
     setCocktails(filteredCocktails);
-    // console.log("onClick IngredientFilterButton in CocktailCollection");
   }
 
   return (

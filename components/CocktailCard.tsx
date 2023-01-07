@@ -2,13 +2,13 @@ export interface Cocktail {
   name: string;
   glass: string;
   category: string;
-  ingredients: Ingredient[];
+  ingredients: Array<Ingredient>;
   granish: string;
   preparation: string;
   imgUrl: string;
 }
 export interface Ingredient {
-  name?: string;
+  name: string;
   unit?: string;
   amount?: number;
   special?: string;

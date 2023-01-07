@@ -120,14 +120,6 @@
     "commonLevel": 2
   },
   {
-    "name": "Cachaca",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
-  },
-  {
     "name": "Dry White Wine",
     "abv": 12,
     "subType": "booze",
@@ -168,33 +160,25 @@
     "commonLevel": 3
   },
   {
-    "name": "DiSaronno",
-    "abv": 28,
-    "subType": "liqueur",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 5
-  },
-  {
-    "name": "Ginger Ale",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
-    "name": "Ginger beer",
-    "abv": 5,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
-  },
-  {
     "name": "Absinthe",
     "abv": 40,
     "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Pisco",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
+    "name": "Cachaca",
+    "abv": 40,
+    "subType": "booze",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 3
@@ -214,14 +198,6 @@
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 4
-  },
-  {
-    "name": "Pisco",
-    "abv": 40,
-    "subType": "booze",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 3
   },
   {
     "name": "Cream liqueur",
@@ -264,6 +240,14 @@
     "commonLevel": 6
   },
   {
+    "name": "DiSaronno",
+    "abv": 28,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 5
+  },
+  {
     "name": "Cherry liqueur",
     "abv": 30,
     "subType": "liqueur",
@@ -296,12 +280,44 @@
     "commonLevel": 6
   },
   {
+    "name": "Ginger beer",
+    "abv": 5,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
+    "name": "Beer",
+    "abv": 5,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
+    "name": "Lemonade",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
     "name": "Cola",
     "abv": 0,
     "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 0
+  },
+  {
+    "name": "Ginger Ale",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
   },
   {
     "name": "Lemon juice",

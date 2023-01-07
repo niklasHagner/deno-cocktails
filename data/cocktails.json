@@ -2019,12 +2019,14 @@
       {
         "unit": "cl",
         "amount": 12,
-        "name": "Fresh lemonade"
+        "name": "Lemonade",
+        "label": "Fresh lemonade"
       },
       {
         "unit": "cl",
         "amount": 6,
-        "name": "Mexican lager"
+        "name": "Beer",
+        "label": "Mexican lager"
       },
       {
         "unit": "cl",

@@ -15,17 +15,13 @@ export const handler: Handlers<Cocktail | null> = {
     const cocktails = await JSON.parse(cocktailsJsonFile);
     const allIngredients = cocktails.map((cocktail) => cocktail.ingredients)
       .flat();
-    const allIngredientNames = allIngredients.filter((ingredient) =>
-    ingredient.name && !ingredient.special
-    ).map((ingredient) => ingredient.name).filter((ingredientName) => ingredientName?.length > 0);
-    const ingredientNames = [...new Set(allIngredientNames)];
 
     const ingredientsJsonFile = await Deno.readTextFile("data/ingredients.json");
     const allIngredientObjectsFromFile = await JSON.parse(ingredientsJsonFile)
-      .filter(x => x.isRelevant)
-      // .sort((a, b) => (a.commonLevel > b.commonLevel) ? 1 : (a.commonLevel === b.commonLevel) ? ((a.abv > b.abv) ? -1 : 1) : -1 )
+      .filter(ingredient => ingredient.isRelevant)
 
-    const viewData = { cocktails, ingredientNames, allIngredientObjectsFromFile };
+    const initialIngredientNamesToFilterBy = [];
+    const viewData = { cocktails, initialIngredientNamesToFilterBy, allIngredientObjectsFromFile };
     return ctx.render(viewData);
   },
 };
