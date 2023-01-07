@@ -1838,7 +1838,7 @@
     "preparation": "Shake the ingredients and pour into highball glass. Top with Sparkling wine."
   },
   {
-    "name": "God Father",
+    "name": "Godfather",
     "glass": "old-fashioned",
     "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaZ_qU9KVlEaZMpZuwlsMRI8qF0y-ujN1bhg&usqp=CAU",
     "ingredients": [
@@ -2004,6 +2004,36 @@
     ],
     "garnish": "Lime wedge and a green or red chili",
     "preparation": "Shake with ice cubes. Strain into a highball glass, filled with ice."
+  },
+  {
+    "name": "Big Game Shandy",
+    "glass": "highball",
+    "imgUrl":"https://images.ctfassets.net/3s5io6mnxfqz/6XvWa74mwOz6ypZx8CM16M/86094c5767d965b7537b3abeff52ca23/AdobeStock_143827814.jpeg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 5,
+        "name": "Tequila",
+        "label": "Silver Tequila"
+      },
+      {
+        "unit": "cl",
+        "amount": 12,
+        "name": "Fresh lemonade"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Mexican lager"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Lime juice"
+      }
+    ],
+    "garnish": "",
+    "preparation": "Combine all ingredients in a pitcher with ice cubes and stir."
   },
   {
     "name": "Kamikaze",
