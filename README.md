@@ -1,11 +1,10 @@
 # Cocktails
 
-<img width="764" alt="image" src="https://user-images.githubusercontent.com/3415677/209945608-18b9d275-3e48-47cc-b313-18e17c5357a8.png">
-
+![image](https://user-images.githubusercontent.com/3415677/211207090-d2387390-9be6-45f5-b5e8-ae24c7a824e1.png)
 
 ## Tech
 * Deno + Fresh
-* Cocktail data based off https://github.com/teijo/iba-cocktails/blob/master/recipes.json
+* Cocktail recipes based on https://github.com/teijo/iba-cocktails/blob/master/recipes.json
 
 ## Usage
 
