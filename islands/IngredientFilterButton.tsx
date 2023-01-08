@@ -13,7 +13,7 @@ export default function IngredientFilterButton(props: IngredientFilterProps) {
   return (
     <span>
       <Button 
-        class="ingredient-btn" style={ props.ingredientObj.abv > 0 ? "background-color: orange;" : "" }
+        class="ingredient-btn" style={ checked === true ? "background-color: orange;" : "" }
         onClick={() => { setChecked(!checked); props.onClick(); } }>
         <span class="icon">{props.ingredientObj.name} {checked === true ? "✔️" : "   "}</span>
       </Button>

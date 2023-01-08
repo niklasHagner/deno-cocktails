@@ -44,8 +44,16 @@ export function CocktailCard(props) {
               </p>
             )}
             <p>{props.cocktail.preparation}</p>
-            <p><span class="label">Glass:</span>{props.glass}</p>
-            <p><span class="label">Category:</span>{props.category}</p>
+            {props.cocktail.glass && (
+              <p>
+                <span class="label">Glass:</span> {props.cocktail.glass}
+              </p>
+            )}
+            {props.cocktail.category && (
+              <p>
+                <span class="label">Category:</span> {props.cocktail.category}
+              </p>
+            )}
           </div>
         </div>
       </div>

@@ -17,6 +17,25 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
   const [selectedIngredientNames, setSelectedIngredientNames] = useState([]);
   const allCocktails = props.cocktails;
 
+
+  function mapCocktailForSortingByPoints(cocktail: Cocktail) {
+    const matchingIngredientCount = cocktail.ingredients.filter(ingredient => selectedIngredientNames.some(ingredientName => ingredientName === ingredient.name)).length;
+    const percentOfIngredients = matchingIngredientCount / cocktail.ingredients.length;
+    const significantIngredients = cocktail.ingredients.filter(ingredient => ingredient.unit)
+    const percentOfSignificantIngredients = significantIngredients.length > 0 ? matchingIngredientCount / significantIngredients.length : 0;
+    
+    let bonusPoints = 0;
+    if (percentOfIngredients === 1) {
+      bonusPoints+= 1; 
+    }
+    
+    const points = matchingIngredientCount + percentOfIngredients + percentOfSignificantIngredients + bonusPoints;
+
+    console.log(cocktail.name, points, "count:", matchingIngredientCount, percentOfSignificantIngredients * 100, "%", "total:", percentOfIngredients * 100, "%", "bonusPoints", bonusPoints);
+
+    return { cocktail, matchingIngredientCount, percentOfIngredients, percentOfSignificantIngredients, points };
+  }
+
   function clickFilter(ingredientObj: Ingredient) {
     if (selectedIngredientNames.includes(ingredientObj.name)) {
       const indexOfItemToPop = selectedIngredientNames.indexOf(
@@ -31,26 +50,13 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     let filteredCocktails = allCocktails.
       filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
       .sort((a, b) => {
-        const aMatchingIngredientCount = a.ingredients.filter(ingredient => selectedIngredientNames.some(ingredientName => ingredientName === ingredient.name)).length;
-        const bMatchingIngredientCount = b.ingredients.filter(ingredient => selectedIngredientNames.some(ingredientName => ingredientName === ingredient.name)).length;
 
-        const sortResult = aMatchingIngredientCount - bMatchingIngredientCount;
-        return sortResult;
-        
+        const aStats = mapCocktailForSortingByPoints(a);
+        const bStats = mapCocktailForSortingByPoints(b);
 
-        // const aPercentageOfTotal = aMatchingIngredientCount / a.ingredients.length;
-        // const bPercentageOfTotal = bMatchingIngredientCount / b.ingredients.length;
-        // return aPercentageOfTotal - bPercentageOfTotal;
-        // if (aPercentageOfTotal > 0.6 || bPercentageOfTotal > 0.6) {
-        //   return a < b ? -1 : 1;
-        // }  
-        // if (aMatchingIngredientCount < bMatchingIngredientCount) {
-        //   return -1;
-        // }
-        // if (aMatchingIngredientCount > bMatchingIngredientCount) {
-        //   return 1;
-        // }
-        // return 1;
+        const sortResultByPercentage = bStats.points - aStats.points;
+
+        return sortResultByPercentage;
       });
 
     if (selectedIngredientNames.length <= 0) {
