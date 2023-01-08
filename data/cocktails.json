@@ -3,7 +3,7 @@
     "name": "Negroni",
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
-    "imgUrl": "https://eu-central-1.linodeobjects.com/tasteline/2006/08/Negroni-2_foto-Andrea-Klintbjer_1500x1500px.jpg",
+    "imgUrl": "https://assets-prd.punchdrink.com/wp-content/uploads/2021/07/20201200/Social-Kingston-Negroni-Rum-Cocktail-Recipe.jpg",
     "description": "A Negroni is a boozier version of an Americano. An aperitif to stimulate your appetite before a meal. Traditionally, Negronis are stirred, not shaken, and built over ice in a classic or rocks glass",
     "ingredients": [
       {
@@ -30,7 +30,7 @@
     "name": "Gin Fizz",
     "glass": "highball",
     "category": "Longdrink",
-    "imgUrl": "https://www.winemag.com/wp-content/uploads/2018/08/GinFizz-CocktailBeers__Meg-Baggott_Styling_Dylan_Garret.jpg",
+    "imgUrl": "https://www.gastronomblog.com/wp-content/uploads/2021/02/Gin-Sour-Classic-Cocktail-10.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -52,6 +52,9 @@
         "unit": "cl",
         "amount": 8,
         "name": "Soda water"
+      },
+      {
+        "name": "Egg white", "amount": 1, "unit": ""
       }
     ],
     "garnish": "Lemon slice",
@@ -1732,7 +1735,7 @@
     "name": "Hemingway Special",
     "glass": "martini",
     "category": "All Day Cocktail",
-    "imgUrl":"https://upload.wikimedia.org/wikipedia/commons/2/22/Hemingway_Daiquiri.jpg",
+    "imgUrl":"https://www.cocktailia.se/images/74/rlq2zg-hemingway-daiquiri-drink-recept-1600x900_112x75.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -1762,7 +1765,7 @@
     "name": "Ramos Fizz",
     "glass": "highball",
     "category": "Longdrink",
-    "imgUrl":"https://cdn.shopify.com/s/files/1/0148/1945/9126/articles/The_Ramos_Gin_Fizz_720x.jpg?v=1586377427",
+    "imgUrl":"https://nigab.se/wordpress/wp-content/uploads/2020/11/ramos_gin_fizz_glas-768x496.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -1809,7 +1812,7 @@
     "name": "Russian Spring Punch",
     "glass": "highball",
     "category": "Sparkling Cocktail",
-    "imgUrl":"https://images.squarespace-cdn.com/content/v1/5bcccf8b9b7d15579477a125/1597534887803-HGWLBD5G7XEMCB8DNME4/PSX_20200815_194052.jpg",
+    "imgUrl":"https://winedharma.com/wine-dharma/uploads/2020/10/3586-russian-spring-punch-cocktail-ricetta-originale-con-vodka-creme-de-cassis-limone-spumante.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -2008,7 +2011,7 @@
   {
     "name": "Big Game Shandy",
     "glass": "highball",
-    "imgUrl":"https://images.ctfassets.net/3s5io6mnxfqz/6XvWa74mwOz6ypZx8CM16M/86094c5767d965b7537b3abeff52ca23/AdobeStock_143827814.jpeg",
+    "imgUrl":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hornitos-big-game-shandy-1548882383.jpg",
     "ingredients": [
       {
         "unit": "cl",

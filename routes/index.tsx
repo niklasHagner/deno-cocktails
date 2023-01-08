@@ -43,6 +43,7 @@ export default function Page({ data }: PageProps<GodModel | null>) {
       </main>
       <footer>
         <p>Made by Hagge</p>
+        <p>using Deno + Fresh</p>
       </footer>
     </>
   );
