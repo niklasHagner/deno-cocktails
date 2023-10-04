@@ -1860,6 +1860,27 @@
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently."
   },
   {
+    "name": "Garibaldi",
+    "glass": "highball",
+    "category": "All Day Cocktail",
+    "imgUrl": "https://www.acouplecooks.com/wp-content/uploads/2020/10/Garibaldi-Cocktail-002.jpg",
+    "description": "Maron Brando's favourite cocktail",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 9,
+        "name": "Orange juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Campari"
+      }
+    ],
+    "garnish": "Half an orange slice",
+    "preparation": "Build into old-fashioned glass filled with ice. Stir gently."
+  },
+  {
     "name": "Cosmopolitan",
     "glass": "martini",
     "category": "All Day Cocktail",
