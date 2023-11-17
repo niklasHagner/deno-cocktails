@@ -1881,6 +1881,123 @@
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently."
   },
   {
+    "name": "Lone Ranger",
+    "glass": "collins",
+    "category": "",
+    "imgUrl":"https://www.liquor.com/thmb/JhQxRJ_mkDtzxvvDZm4yLNUGQ_c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dead-sea-mule-720x720-primary-38747770d1f94c79b58a926ca5e1d10b.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4.5,
+        "name": "Tequila"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Sparkling wine"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Lemon juice"
+      }
+    ],
+    "garnish": "Lemon twist",
+    "preparation": "Shake with ice, strain"
+  },
+  {
+    "name": "Dead Sea Mule",
+    "glass": "collins",
+    "category": "",
+    "imgUrl":"https://www.liquor.com/thmb/JhQxRJ_mkDtzxvvDZm4yLNUGQ_c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dead-sea-mule-720x720-primary-38747770d1f94c79b58a926ca5e1d10b.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 15,
+        "name": "Ginger beer"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Grenadine"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Mezcal"
+      },
+      {
+        "unit": "cl",
+        "amount": 2.5,
+        "name": "Lime juice"
+      }
+    ],
+    "garnish": "Mint or ginger",
+    "preparation": "To make grenadine syrup just weigh out 3 parts pomegranate juice to 2 parts sugar. Heat to near boiling (don't boil). Keeps 3 weeks in the fridge"
+  },
+  {
+    "name": "Mezcal Paloma",
+    "glass": "highball",
+    "category": "",
+    "imgUrl":"https://tequilaoclock.com/wp-content/uploads/2023/02/Grapefruit_post_01.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 12,
+        "name": "Grapefruit soda"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Mezcal"
+      },
+      {
+        "unit": "cl",
+        "amount": 1.5,
+        "name": "Lime juice"
+      }
+    ],
+    "garnish": "Lime wedge, salt",
+    "preparation": "Rub lime on the glass edge, dip it in salt. Fill with ice"
+  },
+  {
+    "name": "Division Bell",
+    "glass": "coupe",
+    "category": "",
+    "imgUrl":"https://www.liquor.com/thmb/93D0WI_yXr43HjP4O78cq-Mc77s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/division-bell-720x720-primary-1490c96136dd4514a9238eb30dde4a79.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4,
+        "name": "Mezcal",
+        "label": "Del Maguey Vida"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Aperol"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Lime juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Maraschino liqueur",
+        "label": "Luxardo"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Cream"
+      }
+    ],
+    "garnish": "Grapefruit wedge",
+    "preparation": "Shake with ice cubes. Strain into chilled cocktail glass. Squeeze oils from grapefruit peel over the drink (don't skimp on it, it really elevates the cocktail)"
+  },
+  {
     "name": "Cosmopolitan",
     "glass": "martini",
     "category": "All Day Cocktail",

@@ -48,6 +48,14 @@
     "commonLevel": 0
   },
   {
+    "name": "Mezcal",
+    "abv": 40,
+    "subType": "booze",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 0
+  },
+  {
     "name": "Vermouth",
     "abv": 17,
     "subType": "booze",
