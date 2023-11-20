@@ -14,8 +14,8 @@ interface CocktailCollectionProps {
 
 export default function CocktailCollection(props: CocktailCollectionProps) {
   const [cocktails, setCocktails] = useState(props.cocktails);
-  const [israreIngredientsChecked, setrareIngredientsChecked] = useState(false);
   const [selectedIngredientNames, setSelectedIngredientNames] = useState([]);
+  const [rareIngredientLevel, setrareIngredientLevel] = useState(5); // Range slider
   const allCocktails = props.cocktails;
 
 
@@ -47,6 +47,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     setSelectedIngredientNames(selectedIngredientNames);
 
     let filteredCocktails = filterBySelectedIngredients();
+    filteredCocktails = filterByAllowedIngredients(filteredCocktails, rareIngredientLevel);
     setCocktails(filteredCocktails);
   }
 
@@ -69,20 +70,20 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     return filteredCocktails;
   }
 
-  function rareIngredientsToggle() {
-    const new_israreIngredientsChecked = !israreIngredientsChecked;
-    setrareIngredientsChecked(new_israreIngredientsChecked);
-    let filteredCocktails = filterBySelectedIngredients();
-    if (new_israreIngredientsChecked === true) {
-      const allowedIngredients = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel < 3);
-      console.log("allowedIngredients", allowedIngredients);
+  function filterByAllowedIngredients(cocktails, inputRareVal) {
+    const allowedIngredients = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel <= inputRareVal);
+    const allowedIngredientNames = allowedIngredients.map(x => x.name);
+    let filteredCocktails = cocktails.filter((cocktail) => cocktail.ingredients.every(ingredient => allowedIngredientNames.includes(ingredient.name) || selectedIngredientNames.includes(ingredient.name) ) );
 
-      const allowedIngredientNames = allowedIngredients.map(x => x.name);
-      // console.log("cocktail.ingredients", filteredCocktails[0].ingredients);
-      filteredCocktails = filteredCocktails.filter((cocktail) => cocktail.ingredients.every(ingredient => allowedIngredientNames.includes(ingredient.name) ));
-    }
-    
-    console.log("filteredCocktails", filteredCocktails);
+    return filteredCocktails;
+  }
+
+  function rareIngredientsChange(event) {
+    const newRareValue = event.target.value;;
+    console.log("rareIngredientsChange", newRareValue);
+    setrareIngredientLevel(newRareValue);
+    let filteredCocktails = filterBySelectedIngredients();
+    filteredCocktails = filterByAllowedIngredients(filteredCocktails, newRareValue);
     setCocktails(filteredCocktails);
   }
 
@@ -102,8 +103,8 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
       </section>
       
       <label>
-        <input type="checkbox" id="remove-rare-ingredients" name="remove-rare-ingredients" value="false" checked={israreIngredientsChecked} onChange={rareIngredientsToggle} />
-        Remove rare ingredients
+        <input type="range" step="1.0" min="0" max="5" value={rareIngredientLevel} onChange={rareIngredientsChange} />
+        How many rare ingredients do you have?
       </label>
 
       <h1>{cocktails.length} cocktails</h1>
