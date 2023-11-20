@@ -13,6 +13,7 @@ export interface Ingredient {
   unit?: string;
   amount?: number;
   special?: string;
+  commonLevel: number;
 }
 
 export function CocktailCard(props: { cocktail: Cocktail}) {

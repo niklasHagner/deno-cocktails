@@ -14,6 +14,7 @@ interface CocktailCollectionProps {
 
 export default function CocktailCollection(props: CocktailCollectionProps) {
   const [cocktails, setCocktails] = useState(props.cocktails);
+  const [israreIngredientsChecked, setrareIngredientsChecked] = useState(false);
   const [selectedIngredientNames, setSelectedIngredientNames] = useState([]);
   const allCocktails = props.cocktails;
 
@@ -38,26 +39,14 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
 
   function clickFilter(ingredientObj: Ingredient) {
     if (selectedIngredientNames.includes(ingredientObj.name)) {
-      const indexOfItemToPop = selectedIngredientNames.indexOf(
-        ingredientObj.name,
-      );
+      const indexOfItemToPop = selectedIngredientNames.indexOf(ingredientObj.name);
       selectedIngredientNames.splice(indexOfItemToPop, 1);
     } else {
       selectedIngredientNames.push(ingredientObj.name);
     }
     setSelectedIngredientNames(selectedIngredientNames);
 
-    let filteredCocktails = allCocktails.
-      filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
-      .sort((a, b) => {
-
-        const aStats = mapCocktailForSortingByPoints(a);
-        const bStats = mapCocktailForSortingByPoints(b);
-
-        const sortResultByPercentage = bStats.points - aStats.points;
-
-        return sortResultByPercentage;
-      });
+    let filteredCocktails = filterBySelectedIngredients();
 
     if (selectedIngredientNames.length <= 0) {
       filteredCocktails = allCocktails;
@@ -65,9 +54,37 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     setCocktails(filteredCocktails);
   }
 
+  function filterBySelectedIngredients() {
+   return allCocktails.
+      filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
+      .sort((a, b) => {
+        const aStats = mapCocktailForSortingByPoints(a);
+        const bStats = mapCocktailForSortingByPoints(b);
+
+        const sortResultByPercentage = bStats.points - aStats.points;
+        return sortResultByPercentage;
+      });
+  }
+
+  function rareIngredientsToggle() {
+    const new_israreIngredientsChecked = !israreIngredientsChecked;
+    setrareIngredientsChecked(new_israreIngredientsChecked);
+    let filteredCocktails = filterBySelectedIngredients();
+    if (new_israreIngredientsChecked === true) {
+      const allowedIngredientNames = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel < 3).map(x => x.name);
+      filteredCocktails = filteredCocktails.filter((cocktail) => cocktail.ingredients.every(ingredient => allowedIngredientNames.includes(ingredient.name) ));
+    }
+    
+    if (selectedIngredientNames.length <= 0) {
+      filteredCocktails = allCocktails;
+    }
+    console.log("props.allIngredientObjectsFromFile", props.allIngredientObjectsFromFile);
+    setCocktails(filteredCocktails);
+  }
+
   return (
     <>
-      <h1>Pick ingredients to get cocktail suggestions</h1>
+      <h1>Cocktail suggestions by ingredients</h1>
       <section class="ingredients">
         {
           props.allIngredientObjectsFromFile.map(ingredientObj => (
@@ -79,6 +96,11 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
           ))
         }
       </section>
+      
+      <label>
+        <input type="checkbox" id="remove-rare-ingredients" name="remove-rare-ingredients" value="false" checked={israreIngredientsChecked} onChange={rareIngredientsToggle} />
+        Remove rare ingredients
+      </label>
 
       <h1>{cocktails.length} cocktails</h1>
       <section class="grid">
