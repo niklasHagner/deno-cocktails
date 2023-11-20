@@ -19,7 +19,7 @@ export function CocktailCard(props) {
     <article class="mui-card">
       <div class="mui-button" type="button">
         {props.cocktail.imgUrl && (
-          <img src={props.cocktail.imgUrl} alt="" height="140" />
+          <img src={props.cocktail.imgUrl} alt="" />
         )}
         <div class="mui-card__text-wrap">
           <h2>{props.cocktail.name}</h2>
