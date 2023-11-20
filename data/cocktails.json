@@ -204,12 +204,9 @@
       },
       {
         "special": "2 drops Peach Bitters"
-      },
-      {
-        "special": "2 Fresh mint leaves"
       }
     ],
-    "garnish": "Mint leaves",
+    "garnish": "Mint leaves or lemon peel",
     "preparation": "Stir in mixing glass with ice cubes. Strain into a cocktail glass."
   },
   {
@@ -463,7 +460,7 @@
         "name": "Lime juice"
       },
       {
-        "name": "Mint sprigs", "amount": 6, "unit": ""
+        "name": "Mint", "amount": 6, "unit": ""
       },
       {
         "name": "White sugar", "amount": 2, "unit": "teaspoons"
@@ -1571,13 +1568,13 @@
         "label": "Bourbon whiskey"
       },
       {
-        "special": "4 fresh mint sprigs"
-      },
-      {
         "special": "1 teaspoon powdered sugar"
       },
       {
         "special": "2 teaspoons water"
+      },
+      {
+        "name": "Mint", "amount": 4, "unit": ""
       }
     ],
     "garnish": "Mint sprig",

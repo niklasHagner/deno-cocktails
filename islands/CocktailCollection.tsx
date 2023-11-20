@@ -88,7 +88,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
 
   return (
     <>
-      <h1>Cocktail suggestions by ingredients</h1>
+      <h1>Cocktails by ingredients you have around</h1>
       <section class="ingredients">
         {
           props.allIngredientObjectsFromFile.map(ingredientObj => (
