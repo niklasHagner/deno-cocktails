@@ -47,15 +47,12 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     setSelectedIngredientNames(selectedIngredientNames);
 
     let filteredCocktails = filterBySelectedIngredients();
-
-    if (selectedIngredientNames.length <= 0) {
-      filteredCocktails = allCocktails;
-    }
     setCocktails(filteredCocktails);
   }
 
   function filterBySelectedIngredients() {
-   return allCocktails.
+    console.log("selectedIngredientNames", selectedIngredientNames)
+    let filteredCocktails = allCocktails.
       filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
       .sort((a, b) => {
         const aStats = mapCocktailForSortingByPoints(a);
@@ -64,6 +61,12 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
         const sortResultByPercentage = bStats.points - aStats.points;
         return sortResultByPercentage;
       });
+  
+
+    if (selectedIngredientNames.length <= 0) {
+      filteredCocktails = allCocktails;
+    }
+    return filteredCocktails;
   }
 
   function rareIngredientsToggle() {
@@ -71,14 +74,15 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     setrareIngredientsChecked(new_israreIngredientsChecked);
     let filteredCocktails = filterBySelectedIngredients();
     if (new_israreIngredientsChecked === true) {
-      const allowedIngredientNames = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel < 3).map(x => x.name);
+      const allowedIngredients = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel < 3);
+      console.log("allowedIngredients", allowedIngredients);
+
+      const allowedIngredientNames = allowedIngredients.map(x => x.name);
+      // console.log("cocktail.ingredients", filteredCocktails[0].ingredients);
       filteredCocktails = filteredCocktails.filter((cocktail) => cocktail.ingredients.every(ingredient => allowedIngredientNames.includes(ingredient.name) ));
     }
     
-    if (selectedIngredientNames.length <= 0) {
-      filteredCocktails = allCocktails;
-    }
-    console.log("props.allIngredientObjectsFromFile", props.allIngredientObjectsFromFile);
+    console.log("filteredCocktails", filteredCocktails);
     setCocktails(filteredCocktails);
   }
 
