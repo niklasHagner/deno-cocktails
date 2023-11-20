@@ -89,7 +89,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
 
   return (
     <>
-      <h1>Cocktails by ingredients you have around</h1>
+      <h1>Cocktails Maker - by ingredients</h1>
       <section class="ingredients">
         {
           props.allIngredientObjectsFromFile.map(ingredientObj => (
@@ -102,9 +102,9 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
         }
       </section>
       
-      <label>
+      <label style="display: flex; align-items: center; margin-top: 5px;">
         <input type="range" step="1.0" min="0" max="5" value={rareIngredientLevel} onChange={rareIngredientsChange} />
-        How many rare ingredients do you have?
+        Include recipes with special ingredients
       </label>
 
       <h1>{cocktails.length} cocktails</h1>

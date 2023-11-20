@@ -653,6 +653,29 @@
     "preparation": "Build all ingredients in a highball glass filled with ice."
   },
   {
+    "name": "Biciletta",
+    "glass": "collins",
+    "category": "",
+    "imgUrl":"https://robbreport.com/wp-content/uploads/2023/03/bicicletta_cocktail.jpg?w=1000",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "Campari"
+      },
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "White Wine"
+      },
+      {
+        "name": "Soda water", "amount": 1, "unit": "splash"
+      }
+    ],
+    "garnish": "orange wheel",
+    "preparation": "Add ice, top with soda"
+  },
+  {
     "name": "Manhattan",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
@@ -1544,7 +1567,7 @@
       {
         "unit": "cl",
         "amount": 9,
-        "name": "Dry White Wine"
+        "name": "White Wine"
       },
       {
         "unit": "cl",
@@ -1553,7 +1576,7 @@
         "label": "Créme de Cassis"
       }
     ],
-    "preparation": "Pour Créme de Cassis into glass, top up with white wine. For Kir Royal: Use champagne instead of white wine."
+    "preparation": "Pour Créme de Cassis into glass, top up with DRY white wine. For Kir Royal: Use champagne instead of white wine."
   },
   {
     "name": "Mint Julep",

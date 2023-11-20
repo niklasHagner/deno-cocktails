@@ -128,7 +128,7 @@
     "commonLevel": 2
   },
   {
-    "name": "Dry White Wine",
+    "name": "White Wine",
     "abv": 12,
     "subType": "booze",
     "mainType": "liquid",
@@ -288,6 +288,14 @@
     "commonLevel": 6
   },
   {
+    "name": "Ginger Ale",
+    "abv": 0,
+    "subType": "mixer",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 1
+  },
+  {
     "name": "Ginger beer",
     "abv": 5,
     "subType": "mixer",
@@ -318,14 +326,6 @@
     "mainType": "liquid",
     "isRelevant": true,
     "commonLevel": 0
-  },
-  {
-    "name": "Ginger Ale",
-    "abv": 0,
-    "subType": "mixer",
-    "mainType": "liquid",
-    "isRelevant": true,
-    "commonLevel": 1
   },
   {
     "name": "Lemon juice",
