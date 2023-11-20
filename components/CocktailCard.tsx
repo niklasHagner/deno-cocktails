@@ -3,9 +3,10 @@ export interface Cocktail {
   glass: string;
   category: string;
   ingredients: Array<Ingredient>;
-  granish: string;
+  garnish: string;
   preparation: string;
   imgUrl: string;
+  description: string;
 }
 export interface Ingredient {
   name: string;
@@ -14,7 +15,7 @@ export interface Ingredient {
   special?: string;
 }
 
-export function CocktailCard(props) {
+export function CocktailCard(props: { cocktail: Cocktail}) {
   return (
     <article class="mui-card">
       <div class="mui-button" type="button">
@@ -25,7 +26,7 @@ export function CocktailCard(props) {
           <h2>{props.cocktail.name}</h2>
           <div class="mui-card__desc">
             <ul>
-              {props.cocktail.ingredients.map((ingredient) => (
+              {props.cocktail.ingredients.map((ingredient: Ingredient) => (
                 <li class="ingredient">
                   {ingredient.amount} {ingredient.unit} {ingredient.name}
                   {ingredient.special && ingredient.special}
