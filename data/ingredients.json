@@ -232,6 +232,14 @@
     "commonLevel": 5
   },
   {
+    "name": "Fernet",
+    "abv": 40,
+    "subType": "liqueur",
+    "mainType": "liquid",
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
     "name": "DOM Bénédictine",
     "abv": 40,
     "subType": "liqueur",

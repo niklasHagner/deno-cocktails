@@ -286,6 +286,74 @@
     "description": "Named after the M.I.A. song, “Paper Planes”, that was super popular during the summer of 2008 when the drink was created by NYC bartender Sam Ross"
   },
   {
+    "name": "Hot and Heavy",
+    "glass": "old-fashioned",
+    "category": "",
+    "imgUrl": "https://www.garnishwithlemon.com/wp-content/uploads/2022/10/Bourbon-Aperol-1-of-3.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Tequila"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Mezcal"
+      },
+      {
+        "unit": "cl",
+        "amount": 1.5,
+        "name": "Honey syrup infused with chili"
+      },
+      {
+        "name": "Angostura Bitters", "amount": 1, "unit": "dashes"
+      },
+      {
+        "name": "Peychauds Bitters", "amount": 1, "unit": "dashes"
+      }
+    ],
+    "garnish": "Mint and lemon wedges",
+    "preparation": "Combine, muddle, shake, strain into an old fashioned glass over one big ice cylinder, insert a slapped mint sprig.",
+    "description": "A refreshing and spicy agave smash. The name comes from the chili"
+  },
+  {
+    "name": "Bow and arrow",
+    "glass": "coupe",
+    "category": "",
+    "imgUrl": "https://www.theeducatedbarfly.com/wp-content/uploads/2019/11/bow-and-arrow-clean-scaled.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Bourbon"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Mezcal"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Pineapple juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Lime juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 1.5,
+        "name": "Syrup"
+      }
+    ],
+    "garnish": "",
+    "preparation": "Shake 10 seconds, strain into chilled glass",
+    "description": ""
+  },
+  {
     "name": "Bacardi",
     "glass": "martini",
     "category": "Before Dinner Cocktail",
@@ -306,8 +374,7 @@
       {
         "unit": "cl",
         "amount": 1,
-        "name": "Syrup",
-        "label": "Grenadine"
+        "name": "Grenadine"
       }
     ],
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
@@ -509,6 +576,39 @@
     "description": "Great for a punch bowl"
   },
   {
+    "name": "Prizefighter",
+    "glass": "rock-glass",
+    "category": "",
+    "imgUrl": "https://assets.epicurious.com/photos/6499d39590edaa1540a54096/1:1/w_2240,c_limit/Prizefighter1_RECIPE_062223_55659.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Lemon juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 2,
+        "name": "Syrup"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Sweet vermouth"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Fernet"
+      },
+      {
+        "name": "Angostura Bitters", "amount": 1, "unit": "dashes", "optional":true
+      }
+    ],
+    "garnish": "Mint leaves",
+    "preparation": "Muddle 6 mint leaves and 3 lemon wedges in a cocktail shaker with ¾ oz. simple syrup (1:1), pushing firmly enough to express juice but not destroy the mint. Add 1 oz. Fernet-Branca, 1 oz. sweet vermouth, ¼ oz. fresh lemon juice, and a pinch kosher salt. Fill with ice and shake until exterior is chilled, 10–15 seconds. Double-strain, using a cocktail strainer and a fine-mesh strainer, into a rocks glass filled with crushed ice. Garnish with a mint sprig."
+  },
+  {
     "name": "Horse's Neck",
     "glass": "highball",
     "category": "Longdrink",
@@ -699,6 +799,36 @@
     ],
     "garnish": "Cherry",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass."
+  },
+  {
+    "name": "Salmoncito",
+    "glass": "rock-glass",
+    "category": "",
+    "imgUrl": "https://d1yfn1dfres2va.cloudfront.net/008/92/0c/920cbc847fcf6f794a5c52d5806419e4_1280m.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 6,
+        "name": "tonic water"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Grapefruit juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 4.5,
+        "name": "Gin"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Campari"
+      }
+    ],
+    "garnish": "Grapefruit twist",
+    "preparation": "A twist on the gin and tonic"
   },
   {
     "name": "Porto Flip",
