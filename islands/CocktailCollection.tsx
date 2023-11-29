@@ -89,7 +89,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
 
   return (
     <>
-      <h1>Cocktails Maker - by ingredients</h1>
+      <h1>Cocktails by ingredients</h1>
       <section class="ingredients">
         {
           props.allIngredientObjectsFromFile.map(ingredientObj => (
