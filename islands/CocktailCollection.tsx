@@ -73,7 +73,11 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
   function filterByAllowedIngredients(cocktails, inputRareVal) {
     const allowedIngredients = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel <= inputRareVal);
     const allowedIngredientNames = allowedIngredients.map(x => x.name);
-    let filteredCocktails = cocktails.filter((cocktail) => cocktail.ingredients.every(ingredient => allowedIngredientNames.includes(ingredient.name) || selectedIngredientNames.includes(ingredient.name) ) );
+    let filteredCocktails = cocktails.filter((cocktail) => 
+      cocktail.ingredients
+        .filter(ingredient => ingredient.name) // Exclude 'special' strings like garnish
+        .every(ingredient => allowedIngredientNames.includes(ingredient.name) || selectedIngredientNames.includes(ingredient.name) ) 
+    );
 
     return filteredCocktails;
   }

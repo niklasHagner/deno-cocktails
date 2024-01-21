@@ -462,7 +462,7 @@
     "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 1
+    "commonLevel": 2
   },
   {
     "name": "Hot coffee",
@@ -470,7 +470,7 @@
     "subType": "mixer",
     "mainType": "liquid",
     "isRelevant": true,
-    "commonLevel": 1
+    "commonLevel": 2
   },
   {
     "name": "Plain water",
