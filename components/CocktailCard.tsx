@@ -14,6 +14,7 @@ export interface Ingredient {
   amount?: number;
   special?: string;
   commonLevel: number;
+  label? : string;
 }
 
 export function CocktailCard(props: { cocktail: Cocktail}) {
@@ -29,7 +30,7 @@ export function CocktailCard(props: { cocktail: Cocktail}) {
             <ul>
               {props.cocktail.ingredients.map((ingredient: Ingredient) => (
                 <li class="ingredient">
-                  {ingredient.amount} {ingredient.unit} {ingredient.name}
+                  {ingredient.amount} {ingredient.unit} {ingredient.name} { ingredient.label ? `(${ingredient.label})` : "" }
                   {ingredient.special && ingredient.special}
                 </li>
               ))}
