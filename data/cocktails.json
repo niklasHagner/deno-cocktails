@@ -28,7 +28,7 @@
     "name": "Negroni",
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
-    "imgUrl": "https://assets-prd.punchdrink.com/wp-content/uploads/2021/07/20201200/Social-Kingston-Negroni-Rum-Cocktail-Recipe.jpg",
+    "imgUrl": "https://www.garnishwithlemon.com/wp-content/uploads/2022/10/Bourbon-Aperol-3-of-3.jpg",
     "description": "A Negroni is a boozier version of an Americano. An aperitif to stimulate your appetite before a meal. Traditionally, Negronis are stirred, not shaken, and built over ice in a classic or rocks glass",
     "ingredients": [
       {
@@ -289,7 +289,7 @@
     "name": "Hot and Heavy",
     "glass": "old-fashioned",
     "category": "",
-    "imgUrl": "https://www.garnishwithlemon.com/wp-content/uploads/2022/10/Bourbon-Aperol-1-of-3.jpg",
+    "imgUrl": "https://assets.epicurious.com/photos/6499d3987e25ebfbf308c5e6/1:1/w_1920,c_limit/HotandHeavy_RECIPE_062223_55470.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -508,6 +508,36 @@
     ],
     "garnish": "Half an orange slice and cherry",
     "preparation": "Dash egg white (Optional: if used shake little harder to foam up the egg white). Pour all ingredients into cocktail shaker filled with ice. Shake. Strain into cocktail glass. If served ‘On the rocks’, strain ingredients into old-fashioned glass filled with ice."
+  },
+  {
+    "name": "Calvados Mojito",
+    "glass": "collins",
+    "category": "Longdrink",
+    "imgUrl":"https://res.cloudinary.com/anora/image/upload/t_FoF-HeroFullWidthImage-LG-LG/f_auto/folkofolk%2Fcalvados-mojito_0",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 4,
+        "name": "Calvados",
+        "label": "Boulard Grand Solage"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Lime juice"
+      },
+      {
+        "name": "Mint", "amount": 6, "unit": ""
+      },
+      {
+        "name": "White sugar", "amount": 2, "unit": "teaspoons"
+      },
+      {
+        "name": "Ginger Ale", "amount": 6, "unit": "cl"
+      }
+    ],
+    "garnish": "Mint leaves and lemon slice",
+    "preparation": "Muddle mint sprigs with sugar and lime juice. Add splash of soda water and fill glass with cracked ice. Pour rum and top with soda water. Serve with straw."
   },
   {
     "name": "Mojito",

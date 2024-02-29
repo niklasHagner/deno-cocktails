@@ -32,7 +32,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
     
     const points = matchingIngredientCount + percentOfIngredients + percentOfSignificantIngredients + bonusPoints;
 
-    console.log(cocktail.name, points, "count:", matchingIngredientCount, percentOfSignificantIngredients * 100, "%", "total:", percentOfIngredients * 100, "%", "bonusPoints", bonusPoints);
+    // console.log(cocktail.name, points, "count:", matchingIngredientCount, percentOfSignificantIngredients * 100, "%", "total:", percentOfIngredients * 100, "%", "bonusPoints", bonusPoints);
 
     return { cocktail, matchingIngredientCount, percentOfIngredients, percentOfSignificantIngredients, points };
   }
@@ -52,7 +52,6 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
   }
 
   function filterBySelectedIngredients() {
-    console.log("selectedIngredientNames", selectedIngredientNames)
     let filteredCocktails = allCocktails.
       filter((cocktail) => cocktail.ingredients.some(ingredient => selectedIngredientNames.includes(ingredient.name)))
       .sort((a, b) => {
@@ -73,11 +72,18 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
   function filterByAllowedIngredients(cocktails, inputRareVal) {
     const allowedIngredients = props.allIngredientObjectsFromFile.filter(ingredient => ingredient.commonLevel <= inputRareVal);
     const allowedIngredientNames = allowedIngredients.map(x => x.name);
-    let filteredCocktails = cocktails.filter((cocktail) => 
-      cocktail.ingredients
-        .filter(ingredient => ingredient.name) // Exclude 'special' strings like garnish
-        .every(ingredient => allowedIngredientNames.includes(ingredient.name) || selectedIngredientNames.includes(ingredient.name) ) 
-    );
+    let filteredCocktails = cocktails;
+    
+    cocktails.forEach((cocktail) => {
+      const ingredientsToCheck = cocktail.ingredients.filter(ingredient => ingredient.name); // Exclude 'special' strings like garnish
+      const allowed = ingredientsToCheck.filter(ingredient => allowedIngredientNames.includes(ingredient.name) || selectedIngredientNames.includes(ingredient.name)) ;
+      const forbidden = ingredientsToCheck.filter(ingredient => !allowedIngredientNames.includes(ingredient.name) || !selectedIngredientNames.includes(ingredient.name)) ;
+      if (forbidden.length > 0) {
+        console.log("forbidden ingredients in", cocktail.name, forbidden);
+      }
+    });
+
+    console.log("filteredCocktails", filteredCocktails, "allowedIngredients", allowedIngredients);
 
     return filteredCocktails;
   }
