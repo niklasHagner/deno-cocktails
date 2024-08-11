@@ -1029,6 +1029,36 @@
     "preparation": "Build all ingredients in a rock glass filled with ice."
   },
   {
+    "name": "The Vasectomy",
+    "glass": "highball",
+    "category": "Longdrink",
+    "imgUrl": "https://cocktail-strapi-prod-assets.s3.amazonaws.com/Aviation_Gin_Aviation_Vasectomy_2023_Kit_Shot_Horizontal_Open_Box_Hi_Res_daba11716c.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 5,
+        "name": "Gin"
+      },
+      {
+        "unit": "cl",
+        "amount": 1,
+        "name": "Cranberry juice"
+      },
+      {
+        "unit": "cl",
+        "amount": 12,
+        "name": "Tonic water"
+      },
+      {
+        "unit": "1",
+        "amount": "dash",
+        "name": "Lemon juice"
+      }
+    ],
+    "garnish": "Orange twist",
+    "preparation": "In a tall glass: stir ice, gin, cranbery juice, lemon juice. Top off with tonic water."
+  },
+  {
     "name": "Yellow Bird",
     "glass": "martini",
     "category": "All Day Cocktail",
