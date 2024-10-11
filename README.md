@@ -1,6 +1,7 @@
 # Cocktails
 
-![image](https://user-images.githubusercontent.com/3415677/211207090-d2387390-9be6-45f5-b5e8-ae24c7a824e1.png)
+![image](https://github.com/user-attachments/assets/ac22d15b-ecf0-4474-a027-11313dad1dc0)
+
 
 ## Tech
 * Deno + Fresh
