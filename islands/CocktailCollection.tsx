@@ -117,7 +117,7 @@ export default function CocktailCollection(props: CocktailCollectionProps) {
         Include recipes with special ingredients
       </label>
 
-      <h1>{cocktails.length} cocktails</h1>
+      <h1>{cocktails.length} {cocktails.length === 1 ? "cocktail" : "cocktails"}</h1>
       <section class="grid">
         {cocktails.map((cocktail) => <CocktailCard cocktail={cocktail} />)}
       </section>
