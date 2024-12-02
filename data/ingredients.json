@@ -237,6 +237,13 @@
     "commonLevel": 6
   },
   {
+    "name": "Lemon sorbet",
+    "abv": 0,
+    "subType": null,
+    "isRelevant": true,
+    "commonLevel": 6
+  },
+  {
     "name": "DiSaronno",
     "abv": 28,
     "type": "booze",

@@ -229,7 +229,31 @@
     ],
     "preparation": "Shake with ice cubes, except for champagne. Strain into a champagne flute. Top up with champagne. Stir gently."
   },
-
+  {
+    "name": "Sgroppino",
+    "glass": "wine glass",
+    "category": "All Day Cocktail",
+    "imgUrl": "https://i3.wp.com/thewimpyvegetarian.com/wp-content/uploads/2022/10/Sgroppino-main-1200-1.jpg",
+    "ingredients": [
+      {
+        "unit": "cl",
+        "amount": 10,
+        "name": "Lemon sorbet"
+      },
+      {
+        "unit": "cl",
+        "amount": 3,
+        "name": "Vodka"
+      },
+      {
+        "unit": "cl",
+        "amount": 4,
+        "name": "Prosecco"
+      }
+    ],
+    "preparation": "Pour ice, vodka and half of the prosecco over sorbet. Mix. Then pour the rest of the prosecco",
+    "description": "Perfect summer drink or dessert"
+  },
   {
     "name": "Basil Smash / Gin sour",
     "glass": "old-fashioned",
