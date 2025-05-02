@@ -85,6 +85,14 @@
     "commonLevel": 2
   },
   {
+    "name": "Grenadine",
+    "abv": 20,
+    "type": null,
+    "subType": null,
+    "isRelevant": true,
+    "commonLevel": 3
+  },
+  {
     "name": "Orange Bitters",
     "abv": 40,
     "type": "booze",
