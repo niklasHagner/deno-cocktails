@@ -17,7 +17,7 @@ export default function IngredientFilterButton(props: IngredientFilterProps) {
         style={ checked === true ? "background-color: orange;" : "" }
         data-is-booze={ props.ingredientObj.type === "booze" ? true: false }
         onClick={() => { setChecked(!checked); props.onClick(); } }>
-        <span class="icon">{props.ingredientObj.name} {checked === true ? "◉" : "○"}</span>
+        <span class="icon">{props.ingredientObj.name} {checked === true ? "🔴" : "⭕"}</span>
       </Button>
     </span>
   );
