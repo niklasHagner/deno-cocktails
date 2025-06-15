@@ -472,7 +472,7 @@
     "name": "Old Fashioned",
     "glass": "old-fashioned",
     "category": "Before Dinner Cocktail",
-    "imgUrl" : "https://media.topshelfspirits.se/Old-Fashioned-Historia-Nu-och-da.jpg",
+    "imgUrl" : "https://assets.epicurious.com/photos/5e41a6d175661800087cc87c/1:1/w_2560%2Cc_limit/OldFashioned_HERO_020520_619.jpg",
     "description": "In the 1800s a “cocktail” meant any combination of spirit, sweetener, and bitters.",
     "ingredients": [
       {
@@ -1635,7 +1635,7 @@
     "name": "Irish Coffee",
     "glass": "hot-drink",
     "category": "Hot Drink",
-    "imgUrl":"https://images.absolutdrinks.com/drink-images/Raw/Absolut/dde5b617-048f-4af0-8c7f-0b2818407acb.jpg?imwidth=500",
+    "imgUrl":"https://www.skrewballwhiskey.com/wp-content/uploads/2024/03/Irish-Coffee-649x820.jpg",
     "ingredients": [
       {
         "unit": "cl",
@@ -1782,7 +1782,7 @@
     "name": "Moscow Mule",
     "glass": "highball",
     "category": "Longdrink",
-    "imgUrl":"https://www.gutekueche.at/storage/media/recipe/6310/conv/moscow-mule-default.jpg",
+    "imgUrl":"https://www.thebottleclub.com/cdn/shop/articles/TBC_recipe_image_10-845540.jpg?v=1707230657",
     "ingredients": [
       {
         "unit": "cl",
@@ -1908,7 +1908,7 @@
     "name": "Paradise",
     "glass": "martini",
     "category": "All Day Cocktail",
-    "imgUrl":"https://i2.wp.com/dishesdelish.com/wp-content/uploads/2017/05/Destination-Paradise-Cocktail-5.jpg",
+    "imgUrl":"https://drinksworld.com/wp-content/uploads/Paradise-04-scaled.jpg",
     "ingredients": [
       {
         "unit": "cl",
