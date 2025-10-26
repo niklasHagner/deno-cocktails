@@ -3,7 +3,7 @@
 body {
   font-family: sans-serif;
   background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #0f093d 100%);
 }
 
 h1,h2 {
@@ -151,22 +151,121 @@ footer {
   font-weight: bold;
 }
 
-.ingredient-btn {
-  height: 30px;
-  margin-right: 4px;
-  margin-bottom: 4px;
-  border: 0;
-  border-radius: 15px;
-  background: #f4e99e;
-  color: black;
-  text-shadow: 1px 1px 1px rgb(255 255 255 / 50%);
+/* Custom Checkbox Styling */
+.ingredient-checkbox {
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
-
-  &:hover {
-    background: #ead761;
-  }
-
-  &[data-is-booze="true"] {
-    background-color: #ecf3b6;
-  }
+  margin: 8px 12px 8px 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
 }
+
+.ingredient-checkbox:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ingredient-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-right: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+}
+
+.ingredient-checkbox input[type="checkbox"]:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked {
+  background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+  border-color: #C850C0;
+  box-shadow: 0 0 15px rgba(200, 80, 192, 0.4);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 1;
+}
+
+.ingredient-checkbox input[type="checkbox"]::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.checkbox-label {
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease;
+  user-select: none;
+}
+
+.ingredient-checkbox:hover .checkbox-label {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Special styling for booze ingredients */
+.ingredient-checkbox input[data-is-booze="true"]:checked {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+  border-color: #FF6B6B;
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Ripple effect on click */
+.ingredient-checkbox::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+  pointer-events: none;
+}
+
+.ingredient-checkbox:active::before {
+  width: 100%;
+  height: 100%;
+}
+
